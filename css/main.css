@@ -1,0 +1,258 @@
+/* General */
+
+.button-general{
+    height: 73px;
+    background-color: #FFFFFF;
+    width: 50%;
+    border: 5px solid grey;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.button-general:hover{
+    background-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+/* 1. Main Nav */
+
+#main-header{
+    background-color: #F2F2F2;
+    height: 111px;
+}
+
+#main-logo{
+    order: -1;
+    height: 111px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+#main-logo img{
+    width: 100%;
+}
+
+#burger-nav{
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+ }
+
+ #main-nav li {
+    display:inline;
+    margin-right: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ #main-nav li a {
+    color: #AE2929;
+    font-size: 30px;
+ }
+
+ #main-nav li a:hover {
+    padding-bottom: 8px;
+    border-bottom: 3px solid #fff;
+   }
+
+/* 2.Video */
+
+#video-box{
+    height: 1045px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe{
+    width: 1364px;
+    height: 664px;
+}
+
+/* 3.About */
+
+
+#about-us{
+    height: 1045px;
+    grid-row: 1/3;
+}
+#aboutus-title{
+    height: 184px;
+    grid-row: 1/2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+}
+#aboutus-image{
+    height: 455px;
+    grid-row: 2/3;
+}
+
+#text-aboutus{
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+#button-aboutus{
+    height: 73px;
+    display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* 4. Portfolio Spotlight */
+
+#portfolio-spotlight{
+    height: 1360px;
+    background-color: beige;
+}
+
+#spotlight-title{
+    height: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+}
+
+#spotlight-text{
+    height: 93px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#portfolio-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+#portfolio-image{
+    background-color: black;
+    height: 500px;
+}
+
+/* 5. Portolio Index */
+
+#portfolio-index{
+    height: 1133px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#index-title{
+    height: 62px;
+    font-size: 55px;
+}
+
+#index-text{
+    height: 51px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#images-port{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.portfolio-image{
+    height: 369px;
+    flex: 50%;
+    max-width: 50%;
+}
+
+.portfolio-image h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.portfolio-image img{
+    height: 291px;
+}
+
+
+/* 6. Testimonies */
+
+#testimonies{
+    height: 433px;
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimonies-text{
+    text-align: center;
+}
+
+/* 7. Experiences */
+
+#experiences{
+    height: 1352px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#experiences-title{
+    height: 62px;
+    font-size: 55px;
+}
+
+#experiences-text{
+    height: 110px;
+    font-size: 22px;
+}
+
+#text-testimony{
+    height: 89px;
+}
+
+#experiences-sections{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.portfolio-experience{
+    height: 493px;
+    flex: 50%;
+    max-width: 50%;
+}
+
+
+/* 8. Footer */
+
+footer{
+    height: 323px;
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    text-align: right;
+}
+
+
+li{
+    list-style: none;
+}
+
+#nav-footer ul li a{
+    text-decoration: none;
+    color: black;
+    float: right;
+}
+
+
