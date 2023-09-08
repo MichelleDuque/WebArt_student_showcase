@@ -1,5 +1,654 @@
 /* General */
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (min-width:768px) {
+
+    /* General */
+    
+    .button-general{
+        height: 73px;
+        background-color: #FFFFFF;
+        width: 50%;
+        border: 5px solid grey;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .button-general:hover{
+        background-color: black;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    
+    /* 1. Main Nav */
+    
+    #main-header{
+        background-color: #E2231A;
+        height: 47px;
+    }
+    
+    #main-logo{
+        order: -1;
+        height: 47px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #main-logo img{
+        width: 100%;
+    }
+    
+    #burger-nav{
+        display: none;
+    }
+    
+    a {
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+     }
+
+     #main-nav{
+        height: 47px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+     }
+    
+     #main-nav li {
+        display:inline;
+        margin-right: 27px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+    
+     #main-nav li a {
+        color: #FFFFFF;
+        font-size: 12px;
+     }
+    
+     #main-nav li a:hover {
+        padding-bottom: 8px;
+        border-bottom: 3px solid #fff;
+       }
+    
+    
+    /* 2.Video */
+    
+    
+    #title-video{
+        display: none;
+    }
+    
+    #text-video{
+        display: none;
+    }
+    
+    
+    #video-box{
+        height: 370px;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+    
+    iframe{
+        width: 606px;
+        height: 294px;
+    }
+    
+    /* 3.About */
+    
+    
+    #about-us{
+        height: 320px;
+        background: green;
+        align-items: center;
+    }
+    
+
+    
+    #text-aboutus{
+        text-align: right;
+    }
+    
+    #text-aboutus h2{
+        font-size: 22px;
+        text-decoration-line: underline;
+        text-underline-offset: 10px;
+    }
+    
+    #text-aboutus h3{
+        font-size: 16px;
+    }
+    
+    #button-aboutus{
+        height: 30px;
+        font-size: 13px;
+        display: block;
+      margin-left: auto;
+      margin-right: 0;
+    }
+    
+    /* 4. Portfolio Spotlight */
+    
+    #portfolio-spotlight{
+        height: 440px;
+        background-color: beige;
+
+    }
+    
+    #spotlight-title h2{
+        font-size: 22px;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
+    
+    #spotlight-title h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    
+    
+    #portfolio-image {
+        background-color: black;
+        height: 200px;
+    }
+    
+    /* 5. Portolio Index */
+    
+    #portfolio-index{
+        height: 800px;
+    }
+    
+    #index-title h2{
+        font-size: 22px;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
+    
+    #index-title h4{
+        font-size: 14px;
+    }
+
+    #port-5 {
+        display: none;
+    }
+    
+    #port-6 {
+        display: none;
+    }
+
+    #images-port{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    .portfolio-image{
+        flex: 50%;
+        max-width: 45%;
+        margin: 10px;
+        background-color: antiquewhite;
+        height: 241px;
+    }
+    
+    .portfolio-image img{
+        margin-top: 40px;
+    }
+    
+    .portfolio-image h3{
+        font-size: 15px;
+    }
+    
+    
+    .portfolio-image img{
+        height: 120px;
+    }
+    
+    .button-details{
+        background-color: #E2231A;
+        border: none;
+        color: #fff;
+        height: 24px;
+        font-size: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    
+    }
+    
+    
+    /* 6. Testimonies */
+    
+    #testimonies{
+        height: 233px;
+        background-color: antiquewhite;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #testimonies-text{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #text-testimony h4{
+        font-style: italic;
+    }
+
+    #text-name h3{
+        font-weight: bold;
+    }
+    
+    /* 7. Experiences */
+    
+    #experiences{
+        height: 770px;
+        text-align: center;
+    }
+    
+    #experiences-title h2{
+        font-size: 22px;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
+    
+    #experiences-title h3{
+        font-size: 14px;
+    }
+    
+    
+    #experiences-sections{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    .portfolio-experience{
+        flex: 50%;
+        max-width: 27%;
+        margin: 5px;
+    }
+    
+    
+    /* 8. Footer */
+    
+    footer{
+        height: 128px;
+        background-color: bisque;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        text-align: right;
+    }
+    
+    
+    li{
+        list-style: none;
+    }
+    
+    #nav-footer ul li a{
+        text-decoration: none;
+        color: black;
+        float: right;
+    }
+    
+    #social-media{
+        display: flex;
+    }
+    
+    #social-media > div {
+        flex: 1; /*grow*/
+      }
+
+    .icon-social{
+        height: 14px;
+    }
+    
+}
+
+
+@media screen and (min-width:1280px) {
+
+    /* General */
+    
+    .button-general{
+        height: 73px;
+        background-color: #FFFFFF;
+        width: 50%;
+        border: 5px solid grey;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .button-general:hover{
+        background-color: black;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    
+    /* 1. Main Nav */
+    
+    #main-header{
+        background-color: #E2231A;
+        height: 79px;
+    }
+    
+    #main-logo{
+        order: -1;
+        height: 79px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #main-logo img{
+        width: 100%;
+    }
+    
+    #burger-nav{
+        display: none;
+    }
+    
+    a {
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+     }
+
+     #main-nav{
+        display: flex;
+        align-items: center;
+        margin: 0;
+     }
+    
+     #main-nav li {
+        display:inline;
+        margin-right: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+    
+     #main-nav li a {
+        color: #FFFFFF;
+        font-size: 22px;
+     }
+    
+     #main-nav li a:hover {
+        padding-bottom: 8px;
+        border-bottom: 3px solid #fff;
+       }
+    
+    
+    /* 2.Video */
+    
+    
+    #title-video{
+        display: none;
+    }
+    
+    #text-video{
+        display: none;
+    }
+    
+    
+    #video-box{
+        height: 800px;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+    
+    iframe{
+        width: 1200px;
+        height: 664px;
+    }
+    
+    /* 3.About */
+    
+    
+    #about-us{
+        height: 531px;
+        background: green;
+        align-items: center;
+    }
+    
+    #aboutus-image{
+        height: 350px;
+    }
+    
+    #text-aboutus{
+        height: 350px;
+        text-align: right;
+    }
+    
+    #text-aboutus h2{
+        font-size: 30px;
+        text-decoration-line: underline;
+        text-underline-offset: 20px;
+        margin-bottom: 100px;
+    }
+    
+    #text-aboutus h3{
+        font-size: 20px;
+    }
+    
+    #button-aboutus{
+        height: 49px;
+        font-size: 20px;
+        display: block;
+      margin-left: auto;
+      margin-right: 0;
+    }
+    
+    /* 4. Portfolio Spotlight */
+    
+    #portfolio-spotlight{
+        height: 657px;
+        background-color: beige;
+    }
+    
+    #spotlight-title h2{
+        font-size: 30px;
+        text-decoration: underline;
+        text-underline-offset: 20px;
+    }
+    
+    #spotlight-title h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    #portfolio-image{
+        background-color: black;
+        height: 350px;
+    }
+    
+    /* 5. Portolio Index */
+    
+    #portfolio-index{
+        height: 1162px;
+    }
+    
+    #index-title h2{
+        font-size: 30px;
+        text-decoration: underline;
+        text-underline-offset: 20px;
+    }
+    
+    #index-title h4{
+        font-size: 20px;
+    }
+
+    #port-5 {
+        display: none;
+    }
+    
+    #port-6 {
+        display: none;
+    }
+
+    #images-port{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    .portfolio-image{
+        flex: 50%;
+        max-width: 45%;
+        margin: 20px;
+        background-color: antiquewhite;
+        height: 390px;
+    }
+    
+    .portfolio-image img{
+        margin-top: 40px;
+    }
+    
+    .portfolio-image h3{
+        font-size: 26px;
+    }
+    
+    
+    .portfolio-image img{
+        height: 196px;
+    }
+    
+    .button-details{
+        background-color: #E2231A;
+        border: none;
+        color: #fff;
+        height: 42px;
+        font-size: 19px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    
+    }
+    
+    
+    /* 6. Testimonies */
+    
+    #testimonies{
+        height: 433px;
+        background-color: antiquewhite;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #testimonies-text{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    #text-testimony h4{
+        font-style: italic;
+    }
+
+    #text-name h3{
+        font-weight: bold;
+    }
+    
+    /* 7. Experiences */
+    
+    #experiences{
+        height: 984px;
+        text-align: center;
+    }
+    
+    #experiences-title h2{
+        font-size: 30px;
+        text-decoration: underline;
+        text-underline-offset: 20px;
+    }
+    
+    #experiences-title h3{
+        font-size: 20px;
+    }
+    
+    
+    #experiences-sections{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    .portfolio-experience{
+        flex: 50%;
+        max-width: 27%;
+        margin: 10px;
+    }
+    
+    
+    /* 8. Footer */
+    
+    footer{
+        height: 213px;
+        background-color: bisque;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-align: right;
+    }
+    
+    
+    li{
+        list-style: none;
+    }
+    
+    #nav-footer ul li a{
+        text-decoration: none;
+        color: black;
+        float: right;
+    }
+    
+    #social-media{
+        display: flex;
+    }
+    
+    #social-media > div {
+        flex: 1; /*grow*/
+      }
+    
+    .icon-social{
+        height: 24px;
+    }
+    
+}
+
+@media screen and (min-width:1920px) {
+
+/* General */
+
 .button-general{
     height: 73px;
     background-color: #FFFFFF;
@@ -23,7 +672,7 @@
 /* 1. Main Nav */
 
 #main-header{
-    background-color: #F2F2F2;
+    background-color: #E2231A;
     height: 111px;
 }
 
@@ -55,7 +704,7 @@ a {
  }
 
  #main-nav li a {
-    color: #AE2929;
+    color: #FFFFFF;
     font-size: 30px;
  }
 
@@ -64,43 +713,80 @@ a {
     border-bottom: 3px solid #fff;
    }
 
+
 /* 2.Video */
 
 #video-box{
     height: 1045px;
     background-color: black;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-iframe{
-    width: 1364px;
-    height: 664px;
+
+#title-video{
+    display: block;
+    font-size: 90px;
 }
+
+#title-video span{
+    display: block;
+    text-decoration-line: underline;
+    text-underline-offset: 40px;
+}
+
+#text-video{
+    display: block;
+    font-size: 60px;
+    text-decoration-line: underline;
+    text-underline-offset: 40px;
+}
+
+#video-full{
+    height: 600px;
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, #E2231A 80%, #000000 20%);
+}
+
+
+iframe{
+    width: 674px;
+    height: 553px;
+}
+
 
 /* 3.About */
 
 
 #about-us{
     height: 1045px;
-    grid-row: 1/3;
+    background: green;
+    align-items: center;
 }
-#aboutus-title{
-    height: 184px;
-    grid-row: 1/2;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 55px;
-}
+
 #aboutus-image{
     height: 455px;
-    grid-row: 2/3;
 }
 
 #text-aboutus{
-    height: 400px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    height: 455px;
+    text-align: right;
+}
+
+#text-aboutus h2{
+    font-size: 55px;
+    text-decoration-line: underline;
+    text-underline-offset: 20px;
+    margin-bottom: 100px;
+}
+
+#text-aboutus h3{
+    font-size: 33px;
 }
 
 #button-aboutus{
@@ -117,13 +803,14 @@ iframe{
     background-color: beige;
 }
 
-#spotlight-title{
-    height: 62px;
-    font-family: Arial, Helvetica, sans-serif;
+#spotlight-title h2{
     font-size: 55px;
+    text-decoration: underline;
+    text-underline-offset: 40px;
+    padding-bottom: 80px;
 }
 
-#spotlight-text{
+#spotlight-title h4{
     height: 93px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
@@ -132,7 +819,7 @@ iframe{
     justify-content: center;
 }
 
-#portfolio-title{
+#portfolio-image{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
@@ -145,31 +832,47 @@ iframe{
 /* 5. Portolio Index */
 
 #portfolio-index{
-    height: 1133px;
-    font-family: Arial, Helvetica, sans-serif;
+    height: 1322px;
 }
 
-#index-title{
-    height: 62px;
+#index-title h2{
     font-size: 55px;
+    text-decoration: underline;
+    text-underline-offset: 20px;
 }
 
-#index-text{
-    height: 51px;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
+#index-title h4{
+    font-size: 25px;
 }
+
 
 #images-port{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
+#port-5 {
+    display: block;
+}
+
+#port-6 {
+    display: block;
+}
+
+.portfolio-image h3{
+    display: none;
+}
 
 .portfolio-image{
-    height: 369px;
     flex: 50%;
-    max-width: 50%;
+    max-width: 27%;
+    margin: 20px;
+    background: none;
+}
+
+.portfolio-image img{
+    margin-bottom: 10px;
 }
 
 .portfolio-image h3{
@@ -179,7 +882,19 @@ iframe{
 
 
 .portfolio-image img{
-    height: 291px;
+    height: 196px;
+}
+
+.button-details{
+    background-color: #E2231A;
+    border: none;
+    color: #fff;
+    height: 42px;
+    font-size: 19px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
 }
 
 
@@ -207,37 +922,35 @@ iframe{
     text-align: center;
 }
 
-#experiences-title{
-    height: 62px;
+#experiences-title h2{
     font-size: 55px;
+    text-decoration: underline;
+    text-underline-offset: 40px;
 }
 
-#experiences-text{
-    height: 110px;
+#experiences-title h3{
     font-size: 22px;
 }
 
-#text-testimony{
-    height: 89px;
-}
 
 #experiences-sections{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 
 .portfolio-experience{
-    height: 493px;
     flex: 50%;
-    max-width: 50%;
+    max-width: 27%;
+    margin: 10px;
 }
 
 
 /* 8. Footer */
 
 footer{
-    height: 323px;
+    height: 320px;
     background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
@@ -255,4 +968,16 @@ li{
     float: right;
 }
 
+#social-media{
+    display: flex;
+}
 
+#social-media > div {
+    flex: 1; /*grow*/
+  }
+
+.icon-social{
+    height: 34px;
+}
+
+}
