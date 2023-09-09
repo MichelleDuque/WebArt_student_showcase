@@ -6,6 +6,338 @@ body{
 }
 
 
+/* Mobile 375px*/
+
+/* General */
+    
+.button-general{
+        height: 73px;
+        background-color: #FFFFFF;
+        width: 50%;
+        border: 5px solid grey;
+        font-size: 30px;
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+.button-general:hover{
+        background-color: black;
+        color: #FFFFFF;
+        cursor: pointer;
+}
+    
+    
+    /* 1. Main Nav */
+    
+    #main-header{
+        background-color: #ffffff;
+        height: 75px;
+    }
+    
+    #main-logo{
+        order: -1;
+        height: 75px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #main-logo img{
+        width: 100%;
+    }
+    
+    #burger-nav{
+        display: none;
+    }
+    
+    a {
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+     }
+
+     #main-nav{
+        display: none;
+     }
+    
+    
+    /* 2.Video */ 
+    
+    #video-box{
+        height: 699px;
+        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.10)),url(../images/bg_video_section.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: #FFFFFF;
+    }
+    
+
+    iframe{
+        width: 302px;
+        height: 198px;
+    }
+
+    #title-video{
+        font-size: 50px;
+    }
+
+    #text-video{
+        font-size: 22px;
+    }
+
+    #date-video{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        padding-bottom: 50px;
+    }
+    
+    /* 3.About */
+    
+    
+    #about-us{
+        height: 880px;
+        background: green;
+        align-items: center;
+    }
+
+    
+    #text-aboutus{
+        text-align: left;
+    }
+    
+    #text-aboutus h2{
+        font-size: 50px;
+        text-decoration-line: underline;
+        text-underline-offset: 10px;
+    }
+    
+    #text-aboutus h3{
+        font-size: 19px;
+    }
+    
+    #button-aboutus{
+        height: 68px;
+        width: 267px;
+        font-size: 16px;
+        display: block;
+        margin-right: auto;
+        margin-left: 0;
+        background-color: #E2231A;
+        color: #FFFFFF;
+        border: none;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif; 
+    }
+    
+    /* 4. Portfolio Spotlight */
+    
+    #portfolio-spotlight{
+        height: 640px;
+        background-color: beige;
+
+    }
+    
+    #spotlight-title h2{
+        font-size: 45px;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
+    
+    #spotlight-title h4{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 19px;
+    }
+    
+    
+    #portfolio-image {
+        background-color: black;
+        height: 159px;
+    }
+    
+    /* 5. Portolio Index */
+    
+    #portfolio-index{
+        height: 1200px;
+    }
+    
+    #index-title h2{
+        font-size: 45px;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
+    
+    #index-title h4{
+        font-size: 19px;
+    }
+
+    #port-4 {
+        display: none;
+    }
+
+    #port-5 {
+        display: none;
+    }
+    
+    #port-6 {
+        display: none;
+    }
+
+    #images-port{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    .portfolio-image{
+        flex: 50%;
+        max-width: 100%;
+        margin: 10px;
+        background-color: antiquewhite;
+        height: 241px;
+    }
+    
+    .portfolio-image img{
+        margin-top: 20px;
+    }
+    
+    .portfolio-image h3{
+        font-size: 15px;
+    }
+    
+    
+    .portfolio-image img{
+        height: 120px;
+    }
+    
+    .button-details{
+        background-color: #E2231A;
+        border: none;
+        color: #fff;
+        height: 24px;
+        font-size: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    
+    }
+    
+    
+    /* 6. Testimonies */
+    
+    #testimonies{
+        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.10)),url(../images/bg_video_section.png);
+        height: 600px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+    }
+
+    #title-testimony{
+        font-size: 45px;
+        text-decoration: underline;
+        text-align: left;
+        margin-bottom: 60px;
+    }
+    
+    #testimonies-text{
+        text-align: center;
+        font-size: 19px;
+    }
+
+    #text-testimony h4{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    #text-name h3{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    /* 7. Experiences */
+    
+    #experiences{
+        height: 2000px;
+        text-align: center;
+    }
+    
+    #experiences-title h2{
+        font-size: 45px;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+
+    }
+    
+    #experiences-title h3{
+        font-size: 19px;
+    }
+    
+    
+    #experiences-sections{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    .portfolio-experience{
+        flex: 100%;
+        max-width: 100%;
+        margin: 5px;
+    }
+    
+    
+    /* 8. Footer */
+    
+    footer{
+        height: 586px;
+        background-color: bisque;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        text-align: right;
+    }
+    
+    
+    li{
+        list-style: none;
+    }
+
+    #nav-footer{
+        display: flex;
+        flex-direction: row;
+        text-align: right;
+    }
+    
+    #nav-footer ul li a{
+        text-decoration: none;
+        color: black;
+        float: right;
+        margin-bottom: 30px;
+    }
+    
+    #social-media{
+        display: flex;
+    }
+    
+    #social-media > div {
+        flex: 1; /*grow*/
+      }
+
+    .icon-social{
+        height: 25px;
+    }
+    
+
+
+
 @media screen and (min-width:768px) {
 
     /* General */
