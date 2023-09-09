@@ -49,10 +49,6 @@ body{
         width: 100%;
     }
     
-    #burger-nav{
-        display: none;
-    }
-    
     a {
         text-decoration: none;
         transition: all 0.5s ease-in-out;
@@ -62,6 +58,98 @@ body{
         display: none;
      }
     
+     /* hamburger */
+
+    #check {
+        display: none;
+      }
+
+    .hamburger {
+        position: absolute;
+        top: 5em;
+        right: 10%;
+        margin-left: -10px;
+        margin-top: -70px;
+        width: 50px;
+        height: 45px;
+        z-index: 5;
+        cursor: pointer;
+      }
+      
+      .hamburger div {
+        position: relative;
+        width: 50px;
+        height: 7px;
+        border-radius: 10px;
+        background-color: #ff0000;
+        margin-top: 8px;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .list-hamburger {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        top: -100%; left: 0; right: 0; bottom: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        transform: scale(0);
+      }
+      .list-box {
+        position: relative;
+        overflow: hidden;
+        overflow-y: auto;
+        height: 100%;
+      }
+
+      #menu-hamburger li a{
+        font-size: 40px;
+        color: #E2231A;
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+      }
+
+      #menu-hamburger li{
+        margin-top: 50px;
+      }
+
+      #menu-hamburger li a:before {
+        content: '';
+        height: 0;
+        position: absolute;
+        width: 0.25em;
+        background-color: white;
+        left: -0.5em;
+        transition: all 0.2s ease-in-out;
+      }
+      #menu-hamburger li a:hover {
+        color: #FFFFFF;
+      }
+      #menu-hamburger li a:hover:before {
+        height: 100%;
+      }
+
+    /**
+Animations
+**/
+#check:checked + .hamburger .beginning {
+    transform: rotate(-45deg);
+    margin-top: 25px;
+  }
+  #check:checked + .hamburger .end {
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+  #check:checked + .hamburger .middle {
+    transform: rotate(45deg);
+    margin-top: -7px;
+  }
+  
+  #check:checked + .hamburger + .list-hamburger {
+    top: 0;
+    transform: scale(1);
+  }
+
     
     /* 2.Video */ 
     
@@ -265,7 +353,7 @@ body{
     /* 7. Experiences */
     
     #experiences{
-        height: 2000px;
+        height: 2200px;
         text-align: center;
     }
     
@@ -290,7 +378,7 @@ body{
     
     .portfolio-experience{
         flex: 100%;
-        max-width: 100%;
+        max-width: 70%;
         margin: 5px;
     }
     
@@ -371,7 +459,7 @@ body{
     
     #main-logo{
         order: -1;
-        height: 47px;
+        height: 120px;
         margin: 0px;
         display: flex;
         align-items: center;
@@ -381,7 +469,11 @@ body{
         width: 100%;
     }
     
-    #burger-nav{
+    #complete-hamburger{
+        display: none;
+    }
+
+    #info-video{
         display: none;
     }
     
@@ -400,7 +492,7 @@ body{
     
      #main-nav li {
         display:inline;
-        margin-right: 27px;
+        margin-right: 20px;
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
      }
     
@@ -447,7 +539,7 @@ body{
     
     
     #about-us{
-        height: 320px;
+        height: 620px;
         background: green;
         align-items: center;
     }
@@ -569,7 +661,7 @@ body{
     /* 6. Testimonies */
     
     #testimonies{
-        height: 233px;
+        height: 383px;
         background-color: antiquewhite;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 22px;
@@ -581,6 +673,10 @@ body{
     #testimonies-text{
         text-align: center;
         font-size: 16px;
+    }
+
+    #title-testimony{
+        text-align: center;
     }
 
     #text-testimony h4{
@@ -596,7 +692,7 @@ body{
     /* 7. Experiences */
     
     #experiences{
-        height: 770px;
+        height: 600px;
         text-align: center;
     }
     
@@ -633,11 +729,29 @@ body{
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
         font-size: 9px;
         text-align: right;
+        display: flex;
+        grid-row: 1/3;
+    }
+
+    #logo-footer{
+        grid-row: 1/2;
+    }
+
+    #social-media{
+        grid-row: 2/3;
+    }
+
+    #nav-footer{
+        grid-row: 1/3;
     }
     
     
     li{
         list-style: none;
+    }
+
+    #nav-footer ul li a{
+        margin-bottom: 0px;
     }
     
     #nav-footer ul li a{
@@ -704,7 +818,7 @@ body{
         width: 100%;
     }
     
-    #burger-nav{
+    #complete-hamburger{
         display: none;
     }
     
@@ -769,10 +883,9 @@ body{
     
     
     #about-us{
-        height: 531px;
+        height: 931px;
         background: white;
         align-items: center;
-        margin-bottom: 180px;
     }
     
     #aboutus-image{
@@ -780,7 +893,6 @@ body{
     }
     
     #text-aboutus{
-        height: 350px;
         text-align: left;
     }
     
@@ -817,7 +929,7 @@ body{
     /* 4. Portfolio Spotlight */
     
     #portfolio-spotlight{
-        height: 1500px;
+        height: 1200px;
         background-color: white;
     }
     
@@ -841,14 +953,14 @@ body{
     
     #portfolio-image{
         background-color: black;
-        width: 1280px;
+        width: 970px;
         height: 720px;
     }
     
     /* 5. Portolio Index */
     
     #portfolio-index{
-        height: 1162px;
+        height: 1262px;
     }
     
     #index-title h2{
@@ -917,7 +1029,7 @@ body{
     /* 6. Testimonies */
     
     #testimonies{
-        height: 433px;
+        height: 743px;
         background-color: antiquewhite;background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.10)),url(../images/bg_testimonials_section.jpg);
         background-size: cover;
         background-position: bottom;
@@ -933,6 +1045,7 @@ body{
         font-size: 22px;
         color: white;
     }
+
 
     #text-testimony h4{
         font-family: 'Roboto',Arial, Helvetica, sans-serif;
@@ -1060,7 +1173,7 @@ body{
     width: 100%;
 }
 
-#burger-nav{
+#complete-hamburger{
     display: none;
 }
 
@@ -1099,27 +1212,32 @@ a {
     background-position: bottom;
     color: #fff;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
 }
 
+#info-video{
+    display: block;
+    margin-right: 100px;
+}
 
 #title-video{
     display: block;
-    font-size: 80px;
-}
-
-#title-video span{
-    display: block;
-    text-decoration-line: underline;
+    text-decoration: underline;
     text-underline-offset: 40px;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif; 
 }
 
 #text-video{
     display: block;
-    font-size: 30px;
-    text-decoration-line: underline;
-    text-underline-offset: 40px;
+    font-size: 45px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif; 
+}
+
+#date-video{
+    font-size: 38px;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
 }
 
 #video-full{
@@ -1142,7 +1260,7 @@ iframe{
 
 
 #about-us{
-    height: 740px;
+    height: 940px;
     background: green;
     align-items: center;
 }
@@ -1179,6 +1297,10 @@ iframe{
 #portfolio-spotlight{
     height: 1360px;
     background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #spotlight-title h2{
@@ -1192,9 +1314,6 @@ iframe{
     height: 93px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #portfolio-image{
@@ -1203,7 +1322,6 @@ iframe{
 }
 
 #portfolio-image{
-    background-color: black;
     height: 500px;
 }
 

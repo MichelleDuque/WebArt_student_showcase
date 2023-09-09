@@ -18,30 +18,34 @@
         <nav class="box col-span-full m-col-start-4 m-col-end-12 l-col-start-4 l-col-end-12 xl-col-start-4 xl-col-end-12" id="main-nav">
             <h2 class="hidden">Header Navigation</h2> 
             <ul>
-                <li> <a href="index.html">Home</a></li>
+                <li> <a href="index.html" class="active">Home</a></li>
                 <li> <a href="about.html">About</a></li>
                 <li> <a href="portfolios.html">Portfolios</a></li>
                 <li> <a href="previous.html">Previous Editions</a></li>
             </ul>
         </nav>
-        <div class="box col-start-1 col-end-3 m-col-start-1 m-col-end-3 l-col-start-1 l-col-end-3 xl-col-start-1 xl-col-end-3" id="main-logo">
+        <div class="box col-start-1 col-end-3 m-col-start-1 m-col-end-4 l-col-start-1 l-col-end-3 xl-col-start-1 xl-col-end-3" id="main-logo">
             <a href="index.html"><img src="images/logo_idp_alt.png" alt="Logo Fanshawe"></a>
         </div>
 
-        <div class="box col-start-1 col-end-1 m-col-start-2 m-col-end-4" id="burger-nav">
-            <h2 class="hidden">Main Navigation</h2>
-            <input type="checkbox" id="hamburger">
-            <label for="hamburger">
-                <img src="images/burger.svg" alt="hamburger menu icon">
-            </label>
-            <div id="burger-con">
-                <ul>
-                    <li> <a href="about.html">About</a></li>
-                    <li> <a href="portfolios.html">Portfolios</a></li>
-                    <li> <a href="more.html">More</a></li>
-                </ul>
-            </div>
-        </div>
+        <div class="box col-start-4 col-end-4" id="complete-hamburger">
+            <input id="check" type="checkbox"></input>
+            <label for="check" class="hamburger">
+                <div class="beginning"></div>
+                <div class="middle"></div>
+                <div class="end"></div>
+              </label>
+              
+              <div class="list-hamburger">
+                <div class="list-box">
+                  <nav id="menu-hamburger">
+                    <li><a href="#">HOME</a><br></li>
+                    <li><a href="#">ABOUT</a><br></li>
+                    <li><a href="#">WORK</a><br></li>
+                    <li><a href="#">SERVICES</a></li>
+                  </nav>
+                </div>
+          </div> 
     </header>
     
     <main>
@@ -77,8 +81,8 @@
                 <h2>PORTFOLIO SPOTLIGHT</h2>
                 <p>Discover our curated collection of standout projects and achievements in our Portfolio Spotlight section. Dive into a showcase of our most remarkable and innovative work, where we highlight our best-in-class projects, creative endeavors, and success stories.</p>
             </div>
-            <div class="box col-span-full m-col-span-full l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12" id="portfolio-image">
-                    <img src="" alt="">
+            <div class="box col-span-full m-col-span-full l-col-start-2 l-col-end-12  xl-col-start-2 xl-col-end-12" id="portfolio-image">
+                    <img src="images/spotlight.png" alt="">
             </div>
         </section>
         
@@ -166,10 +170,10 @@
     </main>
 
     <footer class="grid-con">
-        <div id="logo" class="box col-start-1 col-end-4 m-col-start-1 m-col-end-3 l-col-start-1 l-col-end-3 xl-col-start-1 xl-col-end-3">
+        <div id="logo-footer" class="box col-start-1 col-end-4 m-col-start-1 m-col-end-3 l-col-start-1 l-col-end-3 xl-col-start-1 xl-col-end-3">
             <img src="images/logo_idp_alt.png"  alt="">
         </div>
-        <nav class="box col-start-3 col-end-5 m-col-start-12 m-col-end-13 l-col-start-12 l-col-end-13 xl-col-start-12 xl-col-end-13" id="nav-footer">
+        <nav class="box col-start-3 col-end-5 m-col-start-11 m-col-end-13 l-col-start-12 l-col-end-13 xl-col-start-12 xl-col-end-13" id="nav-footer">
             <h2 class="hidden">Footer Navigation</h2>
             <ul>
                 <li> <a href="index.html">Home</a></li>
