@@ -1,0 +1,1598 @@
+/* General */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #2e2e2e;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (min-width:768px) {
+
+    /* General */
+    
+    .button-general{
+        /* height: 73px; */
+        background-color: #FFFFFF;
+        /* width: 50%; */
+        border: 5px solid grey;
+        /* font-size: 30px; */
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .button-general:hover{
+        background-color: black;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    
+    /* 1. Main Nav */
+    
+    #main-header{
+        background-color: #ffffff;
+        height: 120px;
+    }
+    
+    #main-logo{
+        order: -1;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+    
+    #main-logo img{
+        width: 100%;
+        padding: 0;
+    }
+    
+    #burger-nav{
+        display: none;
+    }
+    
+    a {
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+     }
+
+     #main-nav{
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+     }
+    
+     #main-nav li {
+        padding: 0;
+        display:inline;
+        margin-right: 15px;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+     }
+    
+     #main-nav li a {
+        padding: 0;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #000000;
+        font-size: 18px;
+     }
+    
+     #main-nav li a:hover {
+        padding-bottom: 8px;
+        border-bottom: 3px solid #fff;
+       }
+    
+    
+    /* 2.Video */
+    
+    
+    /* #title-video{
+        display: none;
+    }
+    
+    #text-video{
+        display: none;
+    } */
+    
+    
+    #video-box{
+        height: 370px;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(../images/bg_video_section.png);
+        background-size: cover;
+        background-position: bottom;
+    }
+    
+    /* #video-promo {
+        width: 640px;
+        height: 360px;
+        margin-bottom: 80px;
+        padding: 0;
+        margin: 0;
+        box-shadow: -5px 5px #E2231A;
+    } */
+    
+    #title-video{
+        display: block;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 32px;
+        font-weight: 900;
+        /* text-decoration-line: underline;
+        text-underline-offset: 25px; */
+        align-items: left;
+        margin-right: 50px;
+        margin-top: 90px;
+    }
+    
+    #text-video{
+        display: block;
+        color: white;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        
+    }
+    
+    #date-video {
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 16px;
+        color: white;
+        margin-bottom: 100px;
+    }
+    
+    /* 3.About */
+    
+    
+    #about-us{
+        /* height: 320px; */
+        background: white;
+        align-items: center;
+    }
+    
+    #aboutus-image{
+        margin: auto;
+        padding: 0;
+        box-shadow: -10px 10px #E2231A;
+    } 
+    
+    #text-aboutus{
+        /* height: 455px; */
+        text-align: left;
+        padding-top: 90px;
+    }
+    
+    #text-aboutus h2{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 42px;
+        font-weight: 900;
+        margin: 0;
+        /* padding-top: 60px; */
+        /* text-decoration-line: underline;
+        text-underline-offset: 20px;
+        margin-bottom: 100px; */
+    }
+    
+    #text-aboutus h3{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    #text-aboutus p{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #about-subtext{
+        border-top: 6px solid black;
+        padding-top: 20px;
+    }
+    
+    #button-aboutus{
+        border: 2px solid;
+        color: white;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+        background-color: #E2231A;
+        /* height: 73px; */
+        display: block;
+        margin: 0;
+    }
+    
+    /* 4. Portfolio Spotlight */
+    
+    #portfolio-spotlight{
+        /* height: 440px; */
+        background-color: white;
+    }
+
+    #portfolio-image img{
+        box-shadow: -5px 5px #E2231A;
+    }
+    
+    #spotlight-title h2{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 42px;
+        font-weight: 900;
+        margin: 0;
+        text-align: left;
+        padding-top: 70px;
+    }
+    
+    #spotlight-title p{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    /* #portfolio-image {
+        background-color: black;
+        height: 200px;
+    } */
+    
+    /* 5. Portolio Index */
+    
+    /* #portfolio-index{
+        height: 800px;
+    } */
+    
+    #index-title h2{
+        /* padding-top: 50px; */
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 42px;
+        font-weight: 900;
+        margin: 0;
+        text-decoration: underline;
+        text-decoration-thickness: 6px;
+        text-underline-offset: 18px;
+    }
+    
+    #index-title p{
+        margin-top: 30px;
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #port-5 {
+        display: none;
+    }
+    
+    #port-6 {
+        display: none;
+    }
+
+    #images-port{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    .portfolio-image{
+        flex: 50%;
+        max-width: 45%;
+        margin: 10px;
+        /* background-color: antiquewhite; */
+        height: 241px;
+    }
+
+    .portfolio-image img{
+        box-shadow: -5px 5px #E2231A;
+    }
+    
+    /* .portfolio-image img{
+        margin-top: 40px;
+    } */
+    
+    .portfolio-image h3{
+        font-size: 15px;
+    }
+    
+    
+    /* .portfolio-image img{
+        height: 120px;
+    } */
+    
+    .button-details{
+        background-color: #E2231A;
+        border: none;
+        color: #fff;
+        height: 24px;
+        font-size: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    
+    }
+    
+    
+    /* 6. Testimonies */
+    
+    #testimonies{
+        margin-top: 60px;
+        height: 433px;
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(../images/bg_testimonials_section.jpg);
+        background-size: cover;
+        background-position: bottom;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #testimonies-text h2{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 38px;
+        font-weight: 900;
+        margin-bottom: 0;
+        /* margin: 0; */
+        text-align: left;
+        color: white;
+    }
+    
+    #testimonies-text{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #testimonies-text p{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 100;
+        text-align: center;
+        color: white;
+    }
+
+    .text-testimony h4{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-style: italic;
+        color: white;
+    }
+
+    .text-name h3{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+    
+    /* 7. Experiences */
+    
+    /* #experiences{
+        height: 770px;
+        text-align: center;
+    } */
+    
+    #experiences-title h2{
+        padding-top: 20px;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 42px;
+        font-weight: 900;
+        margin: 0;
+        text-decoration: underline;
+        text-decoration-thickness: 6px;
+        text-underline-offset: 18px;
+    }
+    
+    #experiences-title p{
+        margin-top: 24px;
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    
+    #experiences-sections{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #experiences-sections img{
+        box-shadow: -5px 5px #E2231A;
+    }
+    
+    
+    .portfolio-experience{
+        flex: 50%;
+        max-width: 90%;
+        margin: 20px;
+    }
+    
+    
+    /* 8. Footer */
+    
+    footer{
+        height: 128px;
+        background-color: #F6F6F6;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        text-align: right;
+    }
+    
+    
+    li{
+        list-style: none;
+    }
+    
+    #nav-footer ul li a{
+        text-decoration: none;
+        color: black;
+        float: right;
+        /* margin-bottom: 10px; */
+    }
+    
+    #social-media{
+        display: flex;
+    }
+    
+    #social-media > div {
+        flex: 1; /*grow*/
+      }
+
+    .icon-social{
+        height: 14px;
+    }
+    
+}
+
+
+@media screen and (min-width:1280px) {
+
+    /* General */
+    
+    .button-general{
+        background-color: #FFFFFF;
+        border: 5px solid grey;
+        font-size: 30px;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .button-general:hover{
+        background-color: black;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    
+    /* 1. Main Nav */
+    
+    #main-header{
+        background-color: #ffffff;
+        height: 120px;
+    }
+    
+    #main-logo{
+        order: -1;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    #main-logo img{
+        width: 100%;
+    }
+    
+    #burger-nav{
+        display: none;
+    }
+    
+    a {
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+     }
+
+     #main-nav{
+        display: flex;
+        align-items: center;
+        margin: 0;
+     }
+    
+     #main-nav li {
+        display:inline;
+        margin-left: 10px;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-weight: bold;
+     }
+    
+     #main-nav li a {
+        color: #000000;
+        font-size: 22px;
+     }
+    
+     #main-nav li a:hover {
+        padding-bottom: 8px;
+        border-bottom: 3px solid #fff;
+       }
+    
+    
+    /* 2.Video */
+    
+    
+    #title-video{
+        display: none;
+    }
+    
+    #text-video{
+        display: none;
+    }
+    
+    
+    #video-box{
+        height: 563px;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(../images/bg_video_section.png);
+        background-size: cover;
+        background-position: bottom;
+    }
+    
+    iframe{
+        /* padding-left: 70px; */
+        /* width: 640px;
+        height: 360px; */
+        border: 0;
+        box-shadow: -10px 10px #E2231A;
+    }
+
+    #video-promo {
+        width: 640px;
+        height: 360px;
+        box-shadow: -10px 10px #E2231A;
+    }
+    
+    #title-video{
+        display: block;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 52px;
+        font-weight: 900;
+        text-decoration-line: underline;
+        text-underline-offset: 25px;
+        align-items: left;
+        margin-right: 50px;
+    }
+    
+    #text-video{
+        display: block;
+        color: white;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        
+    }
+    
+    #date-video {
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 22px;
+        color: white;
+        margin-bottom: 100px;
+    }
+
+    /* 3.About */
+    
+    #about-us{
+        /* height: 531px; */
+        background: white;
+        align-items: center;
+    }
+    
+    #aboutus-image{
+        margin: auto;
+        padding: 0;
+        box-shadow: -10px 10px #E2231A;
+    } 
+    
+    #text-aboutus{
+        /* height: 455px; */
+        text-align: left;
+        padding-top: 90px;
+    }
+    
+    #text-aboutus h2{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        font-weight: 900;
+        margin: 0;
+        /* padding-top: 60px; */
+        /* text-decoration-line: underline;
+        text-underline-offset: 20px;
+        margin-bottom: 100px; */
+    }
+    
+    #text-aboutus h3{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    #text-aboutus p{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    #about-subtext{
+        border-top: 6px solid black;
+        padding-top: 20px;
+    }
+    
+    #button-aboutus{
+        border: 2px solid;
+        color: white;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        padding-top: 5px;
+        padding-bottom: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
+        
+        background-color: #E2231A;
+        /* height: 73px; */
+        display: block;
+        margin: 0;
+    }
+    
+    /* 4. Portfolio Spotlight */
+    
+    #portfolio-spotlight{
+        /* height: 1500px; */
+        background-color: white;
+    }
+    
+    #portfolio-image img{
+        box-shadow: -10px 10px #E2231A;
+    }
+    
+    #spotlight-title h2{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        font-weight: 900;
+        margin: 0;
+        text-align: left;
+        padding-top: 70px;
+    }
+
+    #spotlight-title hr{
+        width: 100%;
+        height: 4px;
+        background-color: black;
+    }
+    
+    #spotlight-title p{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+ /* //CAROUSEL     */
+
+
+#portfolio-image {
+    position: relative;
+    margin: auto;
+  }
+  
+  .carousel {
+    display: none;
+  }
+  
+  .before, .after {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #000000;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .before{
+    left: 0;
+  }
+
+  .after {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .before:hover, .after:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 3px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #ff0000;
+  }
+  
+  /* Fading animation */
+  .fade-image {
+    animation-name: fade;
+    animation-duration: 1.7s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .6}
+    to {opacity: 1}
+  }
+    
+    
+    /* 5. Portolio Index */
+    
+    /* #portfolio-index{
+        height: 1162px;
+    } */
+    
+    #index-title h2{
+        padding-top: 50px;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        font-weight: 900;
+        margin: 0;
+        text-decoration: underline;
+        text-decoration-thickness: 6px;
+        text-underline-offset: 18px;
+    }
+    
+    #index-title p{
+        margin-top: 30px;
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #port-5 {
+        display: none;
+    }
+    
+    #port-6 {
+        display: none;
+    }
+
+    #images-port{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    .portfolio-image{
+        flex: 50%;
+        max-width: 45%;
+        margin: 20px;
+        margin-bottom: 190px;
+        /* background-color: antiquewhite; */
+        /* height: 390px; */
+    }
+
+    .portfolio-image img{
+        box-shadow: -10px 10px #E2231A;
+    }
+    
+    /* .portfolio-image img{
+        margin-top: 40px;
+    } */
+    
+    .portfolio-image h3{
+        font-size: 26px;
+    }
+    
+    
+    /* .portfolio-image img{
+        height: 196px;
+    } */
+    
+    .button-details{
+        background-color: #E2231A;
+        border: none;
+        color: #fff;
+        height: 42px;
+        font-size: 19px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    
+    }
+    
+    
+    /* 6. Testimonies */
+    
+    #testimonies{
+        margin-top: 60px;
+        height: 433px;
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(../images/bg_testimonials_section.jpg);
+        background-size: cover;
+        background-position: bottom;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #testimonies-text h2{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        font-weight: 900;
+        margin-bottom: 0;
+        /* margin: 0; */
+        text-align: left;
+        color: white;
+    }
+
+
+    #testimonies-text hr{
+        width: 100%;
+        height: 4px;
+        background-color: white;
+    }
+
+    #testimonies-text p{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 100;
+        text-align: center;
+        color: white;
+    }
+
+    .text-testimony h4{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-style: italic;
+        color: white;
+    }
+
+    .text-name h3{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+
+    /* slides */
+
+    #g1{
+        /* position: fixed; */
+       bottom: 200px;
+    }
+
+    .gif {
+        -webkit-animation: fadeslideUp 8s infinite; 
+        -moz-animation: fadeslideUp 8s infinite; 
+        -o-animation: fadeslideUp 8s infinite; 
+        animation: fadeslideUp 8s infinite; 
+      }
+
+      
+      #g2 {
+          animation-delay: -5s;
+          -webkit-animation-delay: -5s;
+      }
+
+      @-webkit-keyframes fadeslideUp {
+        0% {
+          opacity: 0;
+          -webkit-transform: translateY(-50%);
+        }
+        10% {
+          opacity: 1;
+          -webkit-transform: translateY(-50%);
+        }
+        20% {
+          opacity: 1;
+          -webkit-transform: translateY(-50%);
+        }
+        25% {
+          opacity: 0;
+          -webkit-transform: translateY(-60%);
+        }
+        100% {
+          opacity: 0;
+          -webkit-transform: translateY(-60%);
+        }
+    }
+    
+    @-moz-keyframes fadeslideUp {
+        0% {
+          opacity: 0;
+          transform: translateY(-50%);
+        }
+        10% {
+          opacity: 1;
+          transform: translateY(-50%);
+        }
+        20% {
+          opacity: 1;
+          transform: translateY(-50%);
+        }
+        25% {
+          opacity: 0;
+          transform: translateY(-60%);
+        }
+        100% {
+          opacity: 0;
+          transform: translateY(-60%);
+        }
+    }
+    
+    @-o-keyframes fadeslideUp {
+        0% {
+          opacity: 0;
+          transform: translateY(-40%);
+        }
+        10% {
+          opacity: 1;
+          transform: translateY(-50%);
+        }
+        20% {
+          opacity: 1;
+          transform: translateY(-50%);
+        }
+        25% {
+          opacity: 0;
+          transform: translateY(-60%);
+        }
+        100% {
+          opacity: 0;
+          transform: translateY(-60%);
+        }
+    }
+    
+    @keyframes fadeslideUp {
+        0% {
+          opacity: 0;
+          transform: translateY(-40%); 
+          -ms-transform: translateY(-40%);
+        }
+        10% {
+          opacity: 1;
+          transform: translateY(-50%); 
+          -ms-transform: translateY(-50%);
+        }
+        20% {
+          opacity: 1;
+          transform: translateY(-50%); 
+          -ms-transform: translateY(-50%);
+        }
+        25% {
+          opacity: 0;
+          transform: translateY(-60%);
+          -ms-transform: translateY(-60%); 
+        }
+        100% {
+          opacity: 0;
+          transform: translateY(-60%);
+          -ms-transform: translateY(-60%); 
+        }
+    }
+      
+
+
+    /* 7. Experiences */
+    
+    #experiences{
+        margin-bottom: 70px;
+        /* height: 984px;
+        text-align: center; */
+    }
+    
+    #experiences-title h2{
+        padding-top: 60px;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        font-weight: 900;
+        margin: 0;
+        text-decoration: underline;
+        text-decoration-thickness: 6px;
+        text-underline-offset: 18px;
+    }
+    
+    #experiences-title p{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    
+    
+    #experiences-sections{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #experiences-sections img{
+        box-shadow: -5px 5px #E2231A;
+    }
+    
+    .portfolio-experience{
+        flex: 50%;
+        max-width: 27%;
+        margin: 10px;
+    }
+    
+    
+    /* 8. Footer */
+    
+    footer{
+        height: 220px;
+        background-color: #F6F6F6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        text-align: right;
+    }
+    
+    
+    li{
+        list-style: none;
+    }
+    
+    #nav-footer ul li a{
+        text-decoration: none;
+        color: black;
+        float: right;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    #social-media{
+        padding-top: 50px;
+        display: flex;
+    }
+    
+    #social-media > div {
+        flex: 1; /*grow*/
+      }
+    
+    .icon-social{
+        height: 24px;
+    }
+    
+}
+
+@media screen and (min-width:1920px) {
+
+/* General */
+
+.button-general{
+    background-color: #FFFFFF;
+    border: 5px solid grey;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.button-general:hover{
+    background-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+/* 1. Main Nav */
+
+#main-header{
+    background-color: white;
+    height: 120px;
+}
+
+#main-logo{
+    order: -1;
+    height: 120px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+#main-logo img{
+    width: 100%;
+}
+
+#burger-nav{
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+ }
+
+ #main-nav{
+    justify-content: flex-end;
+ }
+
+ #main-nav li {
+    display:inline;
+    margin-left: 30px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    justify-content: flex-end;
+ }
+
+ #main-nav li a {
+    color: black;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    justify-content: flex-end;
+ }
+
+ #main-nav li a:hover {
+    padding-bottom: 8px;
+    border-bottom: 3px solid #fff;
+   }
+
+
+/* 2.Video */
+
+#video-box{
+    height: 763px;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(../images/bg_video_section.png);
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#title-video{
+    display: block;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    text-decoration-line: underline;
+    text-underline-offset: 30px;
+    align-items: left;
+    padding-right: 180px;
+}
+
+#title-video span{
+    display: block;
+    text-decoration-line: underline;
+    text-underline-offset: 40px;
+}
+
+#text-video{
+    display: block;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    
+}
+
+#date-video {
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    margin-bottom: 100px;
+}
+
+#video-full{
+    padding-bottom: 30px;
+    padding-left: 15px;
+    width: 825px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(to left, #E2231A 80%, #E2231A 20%); */
+}
+
+
+iframe{
+    width: 812px;
+    height: 456px;
+}
+
+#video-promo {
+    width: 812px;
+    height: 456px;
+}
+
+
+/* 3.About */
+
+
+#about-us{
+    /* height: 740px; */
+    background: white;
+    align-items: center;
+}
+
+#aboutus-image{
+    margin-top: auto;
+} 
+
+#text-aboutus{
+    /* height: 455px; */
+    text-align: left;
+    padding-top: 100px;
+}
+
+#text-aboutus h2{
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    margin: 0;
+    /* padding-top: 60px; */
+    /* text-decoration-line: underline;
+    text-underline-offset: 20px;
+    margin-bottom: 100px; */
+}
+
+#text-aboutus h3{
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#text-aboutus p{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#about-subtext{
+    border-top: 6px solid black;
+    padding-top: 20px;
+}
+
+#button-aboutus{
+    border: 2px solid;
+    color: white;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    /* padding: 20px; */
+    padding-left: 60px;
+    padding-right: 60px;
+    
+    background-color: #E2231A;
+    /* height: 73px; */
+    display: block;
+    margin: 0;
+}
+
+/* 4. Portfolio Spotlight */
+
+#portfolio-spotlight{
+    /* height: 1360px; */
+    background-color: white;
+}
+
+#spotlight-title h2{
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    margin: 0;
+    text-align: left;
+}
+
+#spotlight-title hr{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+}
+
+#spotlight-title p{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#portfolio-image{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+#portfolio-image{
+    /* background-color: black; */
+    margin: auto;
+    width: 1280px;
+    height: 720px;
+    box-shadow: -10px 10px #E2231A;
+    padding: 0;
+}
+
+/* 5. Portolio Index */
+
+/* #portfolio-index{
+    height: 1322px;
+} */
+
+#index-title h2{
+    padding-top: 60px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 18px;
+}
+
+#index-title p{
+    margin-top: 30px;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#images-port{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#port-5 {
+    display: block;
+}
+
+#port-6 {
+    display: block;
+}
+
+.portfolio-image h3{
+    display: none;
+}
+
+.portfolio-image{
+    flex: 50%;
+    max-width: 27%;
+    margin: 20px;
+    background: none;
+}
+
+.portfolio-image img{
+    margin-bottom: 10px;
+    /* box-shadow: -5px 5px #E2231A; */
+}
+
+.portfolio-image h3{
+    margin: 50px;
+    font-size: 250px;
+    color: #E2231A;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+}
+
+
+/* .portfolio-image img{
+    height: 196px;
+} */
+
+.button-details{
+    background-color: #E2231A;
+    border: none;
+    color: #fff;
+    height: 42px;
+    font-size: 19px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+
+/* 6. Testimonies */
+
+#testimonies{
+    height: 433px;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(../images/bg_testimonials_section.jpg);
+    background-size: cover;
+    background-position: bottom;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimonies-text h2{
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 0;
+    /* margin: 0; */
+    text-align: left;
+}
+
+#testimonies-text hr{
+    width: 100%;
+    height: 4px;
+    background-color: white;
+}
+
+#testimonies-text p{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+
+/* 7. Experiences */
+
+/* #experiences{
+    height: 1352px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+} */
+
+#experiences-title h2{
+    padding-top: 60px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 18px;
+}
+
+#experiences-title p{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+
+#experiences-sections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.portfolio-experience{
+    flex: 50%;
+    max-width: 30%;
+    margin: 20px;
+    box-shadow: -5px 5px #E2231A;
+    padding: 0;
+}
+
+
+/* 8. Footer */
+
+footer{
+    height: 220px;
+    background-color: #F6F6F6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    text-align: right;
+}
+
+
+li{
+    list-style: none;
+}
+
+#nav-footer ul li a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#social-media{
+    padding-top: 50px;
+    display: flex;
+}
+
+#social-media > div {
+    flex: 1; /*grow*/
+  }
+
+.icon-social{
+    height: 34px;
+}
+
+}
+
+/* x ---404 Page--- */
+
+#page-404-content {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    padding: 30px;
+}
+
+#page-404-content img {
+    width: 50%;
+}
+
+#page-404-content h2 {
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#page-404-content p {
+    color: #000000;
+    margin-bottom: 62px;
+}
+
+.gradient-page {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(243, 50, 50) 75%, rgb(243, 50, 50) 100%);
+  }

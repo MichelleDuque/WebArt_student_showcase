@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Industry Night</title>
+    <title>Interactive Media Design - Industry Night</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -12,16 +15,17 @@
 <body>
     <h1 class="hidden">Interactive Media Design - Industry Night</h1>
     <header class="grid-con" id="main-header">
-        <nav class="box col-span-full m-col-start-5 m-col-end-10 l-col-start-4 l-col-end-10 xl-col-start-4 xl-col-end-10" id="main-nav">
+        <nav class="box col-span-full m-col-start-4 m-col-end-13 l-col-start-6 l-col-end-13 xl-col-start-6 xl-col-end-13" id="main-nav">
             <h2 class="hidden">Header Navigation</h2> 
             <ul>
-                <li> <a href="about.html">About</a></li>
-                <li> <a href="portfolios.html">Portfolios</a></li>
-                <li> <a href="more.html">More</a></li>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="#text-aboutus">About</a></li>
+                <li> <a href="#spotlight-title">Portfolios</a></li>
+                <li> <a href="#experiences-title">Previous editions</a></li>
             </ul>
         </nav>
-        <div class="box col-start-3 col-end-5 m-col-start-10 m-col-end-12 l-col-start-2 l-col-end-4 xl-col-start-2 xl-col-end-3" id="main-logo">
-            <a href="index.html"><img src="images/logo.svg" alt="Logo DR Nuts"></a>
+        <div class="box col-start-3 col-end-1 m-col-start-1 m-col-end-4 l-col-start-1 l-col-end-4 xl-col-start-1 xl-col-end-3" id="main-logo">
+            <a href="index.html"><img src="images/logo_idp_alt.png" alt="Logo Fanshawe"></a>
         </div>
 
         <div class="box col-start-1 col-end-1 m-col-start-2 m-col-end-4" id="burger-nav">
@@ -42,6 +46,172 @@
     
     <main>
         
+        <section class="grid-con" id="video-box">
+            <h2 class="hidden">Product Video</h2>
+            <div class="col-span-full m-col-start-1 m-col-end-6 l-col-start-1 l-col-end-6 xl-col-start-1 xl-col-end-6" id="info-video">
+                <div id="title-video"><h3>Industry Night</span></h3></div>
+                <div id="text-video"><h4>INTERACTIVE MEDIA DESIGN</h4></div>
+                <div id="date-video"><p>Date TBD, April 2024</p></div>
+            </div>
+            <div id="video-full" class="col-span-fullm-col-start-8 m-col-end-12 l-col-start-8 l-col-end-1 xl-col-start-8 xl-col-end-12">
+                <video id="video-promo" src="video/webart_idp.mp4" type="video/mp4" width="640" height="285" loop controls></video>
+            </div>
+        </section>
+
+        <section class="grid-con" id="about-us">
+            <h2 class="hidden">About</h2>
+            <div class="box col-span-full m-col-start-1 m-col-end-6 l-col-start-1 l-col-end-6 xl-col-start-1 xl-col-end-6" id="aboutus-image"><img src="images/map.png" alt="Map">
+            </div>
+            <div class="col-span-full m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-13 xl-col-start-7 xl-col-end-12" id="text-aboutus">
+                    <h2>ABOUT</h2>
+                    <p id="about-subtext">The SDPA Industry Night for 2023 will showcase student projects and activities from the Interactive Media Design Program. Meet and mingle with faculty and students, tour the facilities, and hear about upcoming projects and programs in the School of Digital and Performing Arts.</p>
+                    <h3>The challenge - Client Project Level 4</h3>
+                    <p>Empowerment Through Understanding: A Website Project on Bipolar Disorder. With a focus on raising awareness, promoting understanding, and fostering a sense of community, our project aims to empower those affected by bipolar disorder.</p>
+                <button class="button-general" id="button-aboutus" button onclick="window.location.href='https://www.fanshawec.ca/programs/idp3-interactive-media-design/next';">Interactive Media Design Program</button>
+            </div>
+        </section>
+
+        <section class="grid-con" id="portfolio-spotlight">
+            <h2 class="hidden">Portfolio Spotlight</h2>
+            <div class="box col-span-full m-col-span-full l-col-start-1 l-col-end-13 xl-col-start-1 xl-col-end-12" id="spotlight-title">
+                <h2>PORTFOLIO SPOTLIGHT</h2>
+                <hr>
+                <p>Discover our curated collection of standout projects and achievements in our Portfolio Spotlight section. Dive into a showcase of our most remarkable and innovative work, where we highlight our best-in-class projects, creative endeavors, and success stories.</p>
+            </div>
+            <div class="box col-span-full m-col-span-full l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12" id="portfolio-image">
+                <div class="carousel fade-image">
+                    <img src="images/Portfolio1.jpg" alt="">
+                </div>
+                <div class="carousel fade-image">
+                    <img src="images/portfolio2.jpg" alt="">
+                </div>
+                <div class="carousel fade-image">
+                    <img src="images/portfolio3.jpg" alt="">
+                </div>
+                <a class="before" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="after" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div class="box col-span-full m-col-span-full l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12" id="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+        
+        <section class="grid-con" id="portfolio-index">
+            <h2 class="hidden">PORTFOLIO DIRECTORY</h2>
+            <div class="box col-span-full m-col-span-full l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12" id="index-title">
+                <h2>PORTFOLIO DIRECTORY</h2>
+                <p>A comprehensive list of all our diverse portfolios. Here, you can explore a wide range of our projects, services, and expertise, organized for your convenience.</p>
+            </div>
+            <div class="box col-span-full m-col-span-full l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12" id="portfolio-sections">
+                <div id="images-port">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio2.jpg" alt="">
+                        <h3>Orval Watts</h3>
+                        <a href="/404.html"><button class="button-general button-details">Details</button></a>
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="images/portfolio3.jpg" alt="">
+                        <h3>Courtney Knight</h3>
+                        <a href="/404.html"><button class="button-general button-details">Details</button></a>
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="images/portfolio1.jpg" alt="">
+                        <h3>Wallace Le</h3>
+                        <a href="/404.html"><button class="button-general button-details">Details</button></a>
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="images/portfolio2.jpg" alt="">
+                        <h3>Chong Guzman</h3>
+                        <a href="/404.html"><button class="button-general button-details">Details</button></a>
+                    </div>
+                    <div class="portfolio-image" id="port-5">
+                        <img src="images/portfolio3.jpg" alt="">
+                        <button class="button-general button-details">Details</button>
+                    </div>
+                    <div class="portfolio-image" id="port-6">
+                        <img src="images/portfolio1.jpg" alt="">
+                        <button class="button-general button-details">Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-con slider" id="testimonies">
+            <h2 class="hidden">Testimonies</h2>
+            <hr>
+            <div class="col-span-full m-col-start-3 m-col-end-11 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 " id="testimonies-text">
+                <h2>WHAT THE INDUSTRY SAYS</h2>
+                <hr>
+                <br>
+                <br>
+                <div id="text-box">
+                <div class="gif" id="g1">
+                    <div class="text-testimony"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit pulvinar mauris, fringilla pharetra purus convallis in. Proin urna ex, mollis a sem at, placerat varius arcu. Ut bibendum eleifend urna, sit amet venenatis justo sodales sed. </p></div>
+                    <div class="text-name"><h3>ALEXANDR  PODVALNY</h3></div>
+                </div>
+                <div class="gif" id="g2">
+                    <div class="text-testimony"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corrupti incidunt omnis corporis voluptate, enim obcaecati nihil deleniti sint dolore facilis cumque assumenda quis, tenetur expedita temporibus? Quasi, laudantium commodi! </p> </div>
+                    <div class="text-name"><h3>DANIEL MORENO</h3></div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+        <section class="grid-con" id="experiences">
+            <h2 class="hidden">Previous Experiences</h2>
+            <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-1 l-col-end-13 xl-col-start-2 xl-col-end-12" id="experiences-title">
+                <h2>PREVIOUS EDITIONS</h2>
+                <p>Take a step back in time and revisit our history of collaboration and networking</p>
+            </div>
+            <div class="box col-span-full m-col-span-full l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12" id="experiences-sections">
+                <div class="portfolio-experience">
+                    <img src="images/photos/photo-1.jpg" alt="">
+                </div>
+                <div class="portfolio-experience">
+                    <img src="images/photos/photo-2.jpg" alt="">
+                </div>
+                <div class="portfolio-experience">
+                    <img src="images/photos/photo-3.jpg" alt="">
+                </div>
+                <div class="portfolio-experience">
+                    <img src="images/photos/photo-4.jpg" alt="">
+                </div>
+                <div class="portfolio-experience">
+                    <img src="images/photos/photo-5.jpg" alt="">
+                </div>
+                <div class="portfolio-experience">
+                    <img src="images/photos/photo-6.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
     </main>
+
+    <footer class="grid-con">
+        <div class="box col-span-full m-col-start-1 m-col-end-3 l-col-start-1 l-col-end-3 xl-col-start-1 xl-col-end-3">
+            <div id="logo-footer">
+                <img src="images/logo_idp_alt.png" alt="Fanshawe IDP Logo">
+            </div>
+            <div id="social-media">
+                <img src="images/instagram.svg" alt="Instagram icon" class="icon-social">
+                <img src="images/facebook.svg" alt="Facebook icon" class="icon-social">
+                <img src="images/whatsapp.svg" alt="Whatsapp icon" class="icon-social">
+            </div>
+        </div>
+        <nav class="box col-span-full m-col-start-12 m-col-end-13 l-col-start-12 l-col-end-13 xl-col-start-12 xl-col-end-13" id="nav-footer">
+            <h2 class="hidden">Footer Navigation</h2>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="#text-aboutus">About</a></li>
+                <li> <a href="#spotlight-title">Portfolios</a></li>
+                <li> <a href="#experiences-title">Previous editions</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
