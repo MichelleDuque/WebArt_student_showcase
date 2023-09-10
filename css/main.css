@@ -1,5 +1,9 @@
 /* General */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     color: #2e2e2e;
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
@@ -39,14 +43,15 @@ body{
     
     #main-logo{
         order: -1;
-        height: 47px;
-        margin: 0px;
+        margin: auto;
         display: flex;
         align-items: center;
+        padding: 0;
     }
     
     #main-logo img{
         width: 100%;
+        padding: 0;
     }
     
     #burger-nav{
@@ -64,19 +69,22 @@ body{
         align-items: center;
         justify-content: flex-end;
         margin: 0;
+        padding: 0;
      }
     
      #main-nav li {
+        padding: 0;
         display:inline;
-        margin-right: 27px;
+        margin-right: 15px;
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
      }
     
      #main-nav li a {
+        padding: 0;
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
         font-weight: bold;
         color: #000000;
-        font-size: 12px;
+        font-size: 18px;
      }
     
      #main-nav li a:hover {
@@ -88,13 +96,13 @@ body{
     /* 2.Video */
     
     
-    #title-video{
+    /* #title-video{
         display: none;
     }
     
     #text-video{
         display: none;
-    }
+    } */
     
     
     #video-box{
@@ -103,12 +111,47 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: black;
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(../images/bg_video_section.png);
+        background-size: cover;
+        background-position: bottom;
     }
     
-    iframe{
-        width: 606px;
-        height: 294px;
+    /* #video-promo {
+        width: 640px;
+        height: 360px;
+        margin-bottom: 80px;
+        padding: 0;
+        margin: 0;
+        box-shadow: -5px 5px #E2231A;
+    } */
+    
+    #title-video{
+        display: block;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 32px;
+        font-weight: 900;
+        /* text-decoration-line: underline;
+        text-underline-offset: 25px; */
+        align-items: left;
+        margin-right: 50px;
+        margin-top: 90px;
+    }
+    
+    #text-video{
+        display: block;
+        color: white;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        
+    }
+    
+    #date-video {
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 16px;
+        color: white;
+        margin-bottom: 100px;
     }
     
     /* 3.About */
@@ -116,53 +159,94 @@ body{
     
     #about-us{
         /* height: 320px; */
-        background: rgb(206, 206, 206);
+        background: white;
         align-items: center;
     }
     
-
+    #aboutus-image{
+        margin: auto;
+        padding: 0;
+        box-shadow: -10px 10px #E2231A;
+    } 
     
     #text-aboutus{
-        text-align: right;
+        /* height: 455px; */
+        text-align: left;
+        padding-top: 90px;
     }
     
     #text-aboutus h2{
-        font-size: 22px;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 42px;
+        font-weight: 900;
+        margin: 0;
+        /* padding-top: 60px; */
         /* text-decoration-line: underline;
-        text-underline-offset: 10px; */
+        text-underline-offset: 20px;
+        margin-bottom: 100px; */
     }
     
     #text-aboutus h3{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    #text-aboutus p{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
         font-size: 16px;
+        line-height: 24px;
+    }
+
+    #about-subtext{
+        border-top: 6px solid black;
+        padding-top: 20px;
     }
     
     #button-aboutus{
-        height: 30px;
-        font-size: 13px;
+        border: 2px solid;
+        color: white;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+        background-color: #E2231A;
+        /* height: 73px; */
         display: block;
-        margin-left: auto;
-        margin-right: 0;
+        margin: 0;
     }
     
     /* 4. Portfolio Spotlight */
     
     #portfolio-spotlight{
         /* height: 440px; */
-        background-color: beige;
+        background-color: white;
+    }
 
+    #portfolio-image img{
+        box-shadow: -5px 5px #E2231A;
     }
     
     #spotlight-title h2{
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
-        font-size: 55px;
+        font-size: 42px;
         font-weight: 900;
         margin: 0;
         text-align: left;
+        padding-top: 70px;
     }
     
-    #spotlight-title h4{
+    #spotlight-title p{
         font-family: 'Roboto',Arial, Helvetica, sans-serif;
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     
@@ -178,13 +262,25 @@ body{
     } */
     
     #index-title h2{
-        font-size: 22px;
+        /* padding-top: 50px; */
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 42px;
+        font-weight: 900;
+        margin: 0;
         text-decoration: underline;
-        text-underline-offset: 10px;
+        text-decoration-thickness: 6px;
+        text-underline-offset: 18px;
     }
     
-    #index-title h4{
-        font-size: 14px;
+    #index-title p{
+        margin-top: 30px;
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #port-5 {
@@ -206,8 +302,12 @@ body{
         flex: 50%;
         max-width: 45%;
         margin: 10px;
-        background-color: antiquewhite;
+        /* background-color: antiquewhite; */
         height: 241px;
+    }
+
+    .portfolio-image img{
+        box-shadow: -5px 5px #E2231A;
     }
     
     /* .portfolio-image img{
@@ -239,13 +339,26 @@ body{
     /* 6. Testimonies */
     
     #testimonies{
-        height: 233px;
-        background-color: antiquewhite;
+        margin-top: 60px;
+        height: 433px;
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(../images/bg_testimonials_section.jpg);
+        background-size: cover;
+        background-position: bottom;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 22px;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    #testimonies-text h2{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 38px;
+        font-weight: 900;
+        margin-bottom: 0;
+        /* margin: 0; */
+        text-align: left;
+        color: white;
     }
     
     #testimonies-text{
@@ -253,14 +366,25 @@ body{
         font-size: 16px;
     }
 
+    #testimonies-text p{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 100;
+        text-align: center;
+        color: white;
+    }
+
     .text-testimony h4{
         font-family: 'Roboto',Arial, Helvetica, sans-serif;
         font-style: italic;
+        color: white;
     }
 
     .text-name h3{
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
         font-weight: bold;
+        color: white;
     }
     
     /* 7. Experiences */
@@ -271,13 +395,21 @@ body{
     } */
     
     #experiences-title h2{
-        font-size: 22px;
+        padding-top: 20px;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 42px;
+        font-weight: 900;
+        margin: 0;
         text-decoration: underline;
-        text-underline-offset: 10px;
+        text-decoration-thickness: 6px;
+        text-underline-offset: 18px;
     }
     
-    #experiences-title h3{
-        font-size: 14px;
+    #experiences-title p{
+        margin-top: 24px;
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
     }
     
     
@@ -286,12 +418,16 @@ body{
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    #experiences-sections img{
+        box-shadow: -5px 5px #E2231A;
+    }
     
     
     .portfolio-experience{
         flex: 50%;
-        max-width: 27%;
-        margin: 5px;
+        max-width: 90%;
+        margin: 20px;
     }
     
     
@@ -299,7 +435,7 @@ body{
     
     footer{
         height: 128px;
-        background-color: bisque;
+        background-color: #F6F6F6;
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
         font-size: 9px;
         text-align: right;
@@ -314,6 +450,7 @@ body{
         text-decoration: none;
         color: black;
         float: right;
+        /* margin-bottom: 10px; */
     }
     
     #social-media{
@@ -434,6 +571,12 @@ body{
         border: 0;
         box-shadow: -10px 10px #E2231A;
     }
+
+    #video-promo {
+        width: 640px;
+        height: 360px;
+        box-shadow: -10px 10px #E2231A;
+    }
     
     #title-video{
         display: block;
@@ -532,6 +675,10 @@ body{
     #portfolio-spotlight{
         /* height: 1500px; */
         background-color: white;
+    }
+    
+    #portfolio-image img{
+        box-shadow: -10px 10px #E2231A;
     }
     
     #spotlight-title h2{
@@ -673,8 +820,13 @@ body{
         flex: 50%;
         max-width: 45%;
         margin: 20px;
-        background-color: antiquewhite;
-        height: 390px;
+        margin-bottom: 190px;
+        /* background-color: antiquewhite; */
+        /* height: 390px; */
+    }
+
+    .portfolio-image img{
+        box-shadow: -10px 10px #E2231A;
     }
     
     /* .portfolio-image img{
@@ -759,7 +911,7 @@ body{
     /* slides */
 
     #g1{
-        position: fixed;
+        /* position: fixed; */
        bottom: 200px;
     }
 
@@ -907,6 +1059,9 @@ body{
         justify-content: center;
     }
     
+    #experiences-sections img{
+        box-shadow: -5px 5px #E2231A;
+    }
     
     .portfolio-experience{
         flex: 50%;
@@ -1045,7 +1200,7 @@ a {
 #title-video{
     display: block;
     font-family: 'Mulish',Arial, Helvetica, sans-serif;
-    font-size: 75px;
+    font-size: 70px;
     font-weight: 900;
     text-decoration-line: underline;
     text-underline-offset: 30px;
@@ -1081,11 +1236,16 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to left, #E2231A 80%, #E2231A 20%);
+    /* background-image: linear-gradient(to left, #E2231A 80%, #E2231A 20%); */
 }
 
 
 iframe{
+    width: 812px;
+    height: 456px;
+}
+
+#video-promo {
     width: 812px;
     height: 456px;
 }
@@ -1195,6 +1355,8 @@ iframe{
     margin: auto;
     width: 1280px;
     height: 720px;
+    box-shadow: -10px 10px #E2231A;
+    padding: 0;
 }
 
 /* 5. Portolio Index */
@@ -1253,11 +1415,14 @@ iframe{
 
 .portfolio-image img{
     margin-bottom: 10px;
+    /* box-shadow: -5px 5px #E2231A; */
 }
 
 .portfolio-image h3{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    font-size: 250px;
+    color: #E2231A;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
 }
 
 
@@ -1351,8 +1516,10 @@ iframe{
 
 .portfolio-experience{
     flex: 50%;
-    max-width: 27%;
-    margin: 10px;
+    max-width: 30%;
+    margin: 20px;
+    box-shadow: -5px 5px #E2231A;
+    padding: 0;
 }
 
 
@@ -1394,3 +1561,38 @@ li{
 }
 
 }
+
+/* x ---404 Page--- */
+
+#page-404-content {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    padding: 30px;
+}
+
+#page-404-content img {
+    width: 50%;
+}
+
+#page-404-content h2 {
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#page-404-content p {
+    color: #000000;
+    margin-bottom: 62px;
+}
+
+.gradient-page {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(243, 50, 50) 75%, rgb(243, 50, 50) 100%);
+  }
