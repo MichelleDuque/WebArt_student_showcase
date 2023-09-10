@@ -11,12 +11,12 @@ body{
     /* General */
     
     .button-general{
-        height: 73px;
+        /* height: 73px; */
         background-color: #FFFFFF;
-        width: 50%;
+        /* width: 50%; */
         border: 5px solid grey;
-        font-size: 30px;
-        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        /* font-size: 30px; */
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
         color: black;
         display: flex;
         align-items: center;
@@ -115,8 +115,8 @@ body{
     
     
     #about-us{
-        height: 320px;
-        background: green;
+        /* height: 320px; */
+        background: rgb(206, 206, 206);
         align-items: center;
     }
     
@@ -128,8 +128,8 @@ body{
     
     #text-aboutus h2{
         font-size: 22px;
-        text-decoration-line: underline;
-        text-underline-offset: 10px;
+        /* text-decoration-line: underline;
+        text-underline-offset: 10px; */
     }
     
     #text-aboutus h3{
@@ -140,22 +140,24 @@ body{
         height: 30px;
         font-size: 13px;
         display: block;
-      margin-left: auto;
-      margin-right: 0;
+        margin-left: auto;
+        margin-right: 0;
     }
     
     /* 4. Portfolio Spotlight */
     
     #portfolio-spotlight{
-        height: 440px;
+        /* height: 440px; */
         background-color: beige;
 
     }
     
     #spotlight-title h2{
-        font-size: 22px;
-        text-decoration: underline;
-        text-underline-offset: 10px;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        font-weight: 900;
+        margin: 0;
+        text-align: left;
     }
     
     #spotlight-title h4{
@@ -164,16 +166,16 @@ body{
     }
     
     
-    #portfolio-image {
+    /* #portfolio-image {
         background-color: black;
         height: 200px;
-    }
+    } */
     
     /* 5. Portolio Index */
     
-    #portfolio-index{
+    /* #portfolio-index{
         height: 800px;
-    }
+    } */
     
     #index-title h2{
         font-size: 22px;
@@ -208,18 +210,18 @@ body{
         height: 241px;
     }
     
-    .portfolio-image img{
+    /* .portfolio-image img{
         margin-top: 40px;
-    }
+    } */
     
     .portfolio-image h3{
         font-size: 15px;
     }
     
     
-    .portfolio-image img{
+    /* .portfolio-image img{
         height: 120px;
-    }
+    } */
     
     .button-details{
         background-color: #E2231A;
@@ -263,10 +265,10 @@ body{
     
     /* 7. Experiences */
     
-    #experiences{
+    /* #experiences{
         height: 770px;
         text-align: center;
-    }
+    } */
     
     #experiences-title h2{
         font-size: 22px;
@@ -334,9 +336,7 @@ body{
     /* General */
     
     .button-general{
-        height: 73px;
         background-color: #FFFFFF;
-        width: 50%;
         border: 5px solid grey;
         font-size: 30px;
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
@@ -362,8 +362,7 @@ body{
     
     #main-logo{
         order: -1;
-        height: 79px;
-        margin: 0px;
+        margin: auto;
         display: flex;
         align-items: center;
     }
@@ -389,7 +388,7 @@ body{
     
      #main-nav li {
         display:inline;
-        margin-right: 50px;
+        margin-left: 10px;
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
         font-weight: bold;
      }
@@ -418,47 +417,81 @@ body{
     
     
     #video-box{
-        height: 763px;
+        height: 563px;
         background-color: #FFFFFF;
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.10)),url(../images/bg_video_section.png);
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(../images/bg_video_section.png);
         background-size: cover;
         background-position: bottom;
     }
     
     iframe{
-        width: 812px;
-        height: 456px;
+        /* padding-left: 70px; */
+        /* width: 640px;
+        height: 360px; */
+        border: 0;
+        box-shadow: -10px 10px #E2231A;
     }
     
+    #title-video{
+        display: block;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 52px;
+        font-weight: 900;
+        text-decoration-line: underline;
+        text-underline-offset: 25px;
+        align-items: left;
+        margin-right: 50px;
+    }
+    
+    #text-video{
+        display: block;
+        color: white;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        
+    }
+    
+    #date-video {
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 22px;
+        color: white;
+        margin-bottom: 100px;
+    }
+
     /* 3.About */
     
-    
     #about-us{
-        height: 531px;
+        /* height: 531px; */
         background: white;
         align-items: center;
-        margin-bottom: 180px;
     }
     
     #aboutus-image{
-        height: 350px;
-    }
+        margin: auto;
+        padding: 0;
+        box-shadow: -10px 10px #E2231A;
+    } 
     
     #text-aboutus{
-        height: 350px;
+        /* height: 455px; */
         text-align: left;
+        padding-top: 90px;
     }
     
     #text-aboutus h2{
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
         font-size: 55px;
         font-weight: 900;
-        text-decoration-line: underline;
+        margin: 0;
+        /* padding-top: 60px; */
+        /* text-decoration-line: underline;
         text-underline-offset: 20px;
-        margin-bottom: 100px;
+        margin-bottom: 100px; */
     }
     
     #text-aboutus h3{
@@ -473,19 +506,31 @@ body{
         line-height: 32px;
     }
 
+    #about-subtext{
+        border-top: 6px solid black;
+        padding-top: 20px;
+    }
     
     #button-aboutus{
-        height: 49px;
-        font-size: 20px;
+        border: 2px solid;
+        color: white;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        padding-top: 5px;
+        padding-bottom: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
+        
+        background-color: #E2231A;
+        /* height: 73px; */
         display: block;
-        margin-left: auto;
-        margin-right: 0;
+        margin: 0;
     }
     
     /* 4. Portfolio Spotlight */
     
     #portfolio-spotlight{
-        height: 1500px;
+        /* height: 1500px; */
         background-color: white;
     }
     
@@ -493,14 +538,22 @@ body{
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
         font-size: 55px;
         font-weight: 900;
-        text-decoration: underline;
-        text-underline-offset: 20px;
+        margin: 0;
+        text-align: left;
+        padding-top: 70px;
+    }
+
+    #spotlight-title hr{
+        width: 100%;
+        height: 4px;
+        background-color: black;
     }
     
     #spotlight-title p{
         font-family: 'Roboto',Arial, Helvetica, sans-serif;
         font-size: 20px;
         line-height: 32px;
+        text-align: left;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -508,29 +561,39 @@ body{
     
     
     #portfolio-image{
-        background-color: black;
+        padding: 0;
+        box-shadow: -10px 10px #E2231A;
+        /* background-color: black;
         width: 1280px;
-        height: 720px;
+        height: 720px; */
     }
     
     /* 5. Portolio Index */
     
-    #portfolio-index{
+    /* #portfolio-index{
         height: 1162px;
-    }
+    } */
     
     #index-title h2{
+        padding-top: 50px;
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
         font-size: 55px;
         font-weight: 900;
+        margin: 0;
         text-decoration: underline;
-        text-underline-offset: 20px;
+        text-decoration-thickness: 6px;
+        text-underline-offset: 18px;
     }
     
     #index-title p{
+        margin-top: 30px;
         font-family: 'Roboto',Arial, Helvetica, sans-serif;
         font-size: 20px;
         line-height: 32px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #port-5 {
@@ -556,18 +619,18 @@ body{
         height: 390px;
     }
     
-    .portfolio-image img{
+    /* .portfolio-image img{
         margin-top: 40px;
-    }
+    } */
     
     .portfolio-image h3{
         font-size: 26px;
     }
     
     
-    .portfolio-image img{
+    /* .portfolio-image img{
         height: 196px;
-    }
+    } */
     
     .button-details{
         background-color: #E2231A;
@@ -585,8 +648,9 @@ body{
     /* 6. Testimonies */
     
     #testimonies{
+        margin-top: 60px;
         height: 433px;
-        background-color: antiquewhite;background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.10)),url(../images/bg_testimonials_section.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(../images/bg_testimonials_section.jpg);
         background-size: cover;
         background-position: bottom;
         font-family: Arial, Helvetica, sans-serif;
@@ -596,9 +660,28 @@ body{
         justify-content: center;
     }
     
-    #testimonies-text{
+    #testimonies-text h2{
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        font-weight: 900;
+        margin-bottom: 0;
+        /* margin: 0; */
+        text-align: left;
+        color: white;
+    }
+
+    #testimonies-text hr{
+        width: 100%;
+        height: 4px;
+        background-color: white;
+    }
+
+    #testimonies-text p{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 100;
         text-align: center;
-        font-size: 22px;
         color: white;
     }
 
@@ -617,16 +700,20 @@ body{
     /* 7. Experiences */
     
     #experiences{
-        height: 984px;
-        text-align: center;
+        margin-bottom: 70px;
+        /* height: 984px;
+        text-align: center; */
     }
     
     #experiences-title h2{
+        padding-top: 60px;
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 55px;
         font-weight: 900;
-        font-size: 30px;
+        margin: 0;
         text-decoration: underline;
-        text-underline-offset: 20px;
+        text-decoration-thickness: 6px;
+        text-underline-offset: 18px;
     }
     
     #experiences-title p{
@@ -653,10 +740,10 @@ body{
     /* 8. Footer */
     
     footer{
-        height: 213px;
-        background-color: bisque;
+        height: 220px;
+        background-color: #F6F6F6;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
+        font-size: 23px;
         text-align: right;
     }
     
@@ -669,9 +756,13 @@ body{
         text-decoration: none;
         color: black;
         float: right;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        line-height: 30px;
     }
     
     #social-media{
+        padding-top: 50px;
         display: flex;
     }
     
@@ -690,9 +781,7 @@ body{
 /* General */
 
 .button-general{
-    height: 73px;
     background-color: #FFFFFF;
-    width: 50%;
     border: 5px solid grey;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -713,7 +802,7 @@ body{
 
 #main-header{
     background-color: white;
-    height: 111px;
+    height: 120px;
 }
 
 #main-logo{
@@ -743,13 +832,16 @@ a {
 
  #main-nav li {
     display:inline;
-    margin-right: 80px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    justify-content: flex-end;
  }
 
  #main-nav li a {
     color: black;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
     font-size: 25px;
+    justify-content: flex-end;
  }
 
  #main-nav li a:hover {
@@ -762,7 +854,7 @@ a {
 
 #video-box{
     height: 763px;
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.10)),url(../images/bg_video_section.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(../images/bg_video_section.png);
     background-size: cover;
     background-position: bottom;
     color: #fff;
@@ -774,7 +866,13 @@ a {
 
 #title-video{
     display: block;
-    font-size: 80px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    font-weight: 900;
+    text-decoration-line: underline;
+    text-underline-offset: 30px;
+    align-items: left;
+    padding-right: 180px;
 }
 
 #title-video span{
@@ -785,24 +883,33 @@ a {
 
 #text-video{
     display: block;
-    font-size: 30px;
-    text-decoration-line: underline;
-    text-underline-offset: 40px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    
+}
+
+#date-video {
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    margin-bottom: 100px;
 }
 
 #video-full{
-    height: 600px;
-    width: 750px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    width: 825px;
+    height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to left, #E2231A 80%, #000000 20%);
+    background-image: linear-gradient(to left, #E2231A 80%, #E2231A 20%);
 }
 
 
 iframe{
-    width: 674px;
-    height: 553px;
+    width: 812px;
+    height: 456px;
 }
 
 
@@ -810,60 +917,95 @@ iframe{
 
 
 #about-us{
-    height: 740px;
-    background: green;
+    /* height: 740px; */
+    background: white;
     align-items: center;
 }
 
 #aboutus-image{
-    height: 455px;
-}
+    margin-top: auto;
+} 
 
 #text-aboutus{
-    height: 455px;
+    /* height: 455px; */
     text-align: left;
+    padding-top: 100px;
 }
 
 #text-aboutus h2{
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
     font-size: 55px;
-    text-decoration-line: underline;
+    font-weight: 900;
+    margin: 0;
+    /* padding-top: 60px; */
+    /* text-decoration-line: underline;
     text-underline-offset: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 100px; */
 }
 
 #text-aboutus h3{
-    font-size: 33px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#text-aboutus p{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#about-subtext{
+    border-top: 6px solid black;
+    padding-top: 20px;
 }
 
 #button-aboutus{
-    height: 73px;
+    border: 2px solid;
+    color: white;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    /* padding: 20px; */
+    padding-left: 60px;
+    padding-right: 60px;
+    
+    background-color: #E2231A;
+    /* height: 73px; */
     display: block;
-  margin-left: auto;
-  margin-right: 0;
+    margin: 0;
 }
 
 /* 4. Portfolio Spotlight */
 
 #portfolio-spotlight{
-    height: 1360px;
-    background-color: beige;
+    /* height: 1360px; */
+    background-color: white;
 }
 
 #spotlight-title h2{
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
     font-size: 55px;
-    text-decoration: underline;
-    text-underline-offset: 40px;
-    padding-bottom: 80px;
+    font-weight: 900;
+    margin: 0;
+    text-align: left;
 }
 
-#spotlight-title h4{
-    height: 93px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+#spotlight-title hr{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+}
+
+#spotlight-title p{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 #portfolio-image{
     font-family: Arial, Helvetica, sans-serif;
@@ -871,24 +1013,38 @@ iframe{
 }
 
 #portfolio-image{
-    background-color: black;
-    height: 500px;
+    /* background-color: black; */
+    margin: auto;
+    width: 1280px;
+    height: 720px;
 }
 
 /* 5. Portolio Index */
 
-#portfolio-index{
+/* #portfolio-index{
     height: 1322px;
-}
+} */
 
 #index-title h2{
+    padding-top: 60px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
     font-size: 55px;
+    font-weight: 900;
+    margin: 0;
     text-decoration: underline;
-    text-underline-offset: 20px;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 18px;
 }
 
-#index-title h4{
-    font-size: 25px;
+#index-title p{
+    margin-top: 30px;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -927,9 +1083,9 @@ iframe{
 }
 
 
-.portfolio-image img{
+/* .portfolio-image img{
     height: 196px;
-}
+} */
 
 .button-details{
     background-color: #E2231A;
@@ -948,37 +1104,63 @@ iframe{
 
 #testimonies{
     height: 433px;
-    background-color: antiquewhite;background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.10)),url(../images/bg_testimonials_section.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(../images/bg_testimonials_section.jpg);
     background-size: cover;
     background-position: bottom;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 220px;
+    font-size: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#testimonies-text{
+#testimonies-text h2{
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 0;
+    /* margin: 0; */
+    text-align: left;
+}
+
+#testimonies-text hr{
+    width: 100%;
+    height: 4px;
+    background-color: white;
+}
+
+#testimonies-text p{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
     text-align: center;
     color: white;
 }
 
 /* 7. Experiences */
 
-#experiences{
+/* #experiences{
     height: 1352px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-}
+} */
 
 #experiences-title h2{
+    padding-top: 60px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
     font-size: 55px;
+    font-weight: 900;
+    margin: 0;
     text-decoration: underline;
-    text-underline-offset: 40px;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 18px;
 }
 
-#experiences-title h3{
-    font-size: 22px;
+#experiences-title p{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
 }
 
 
@@ -999,8 +1181,8 @@ iframe{
 /* 8. Footer */
 
 footer{
-    height: 320px;
-    background-color: bisque;
+    height: 220px;
+    background-color: #F6F6F6;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
     text-align: right;
@@ -1015,9 +1197,13 @@ li{
     text-decoration: none;
     color: black;
     float: right;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 #social-media{
+    padding-top: 50px;
     display: flex;
 }
 
