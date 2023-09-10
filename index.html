@@ -79,7 +79,23 @@
                 <p>Discover our curated collection of standout projects and achievements in our Portfolio Spotlight section. Dive into a showcase of our most remarkable and innovative work, where we highlight our best-in-class projects, creative endeavors, and success stories.</p>
             </div>
             <div class="box col-span-full m-col-span-full l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12" id="portfolio-image">
-                    <img src="images/Portfolio1.jpg" alt="Example">
+                <div class="carousel fade-image">
+                    <img src="images/Portfolio1.jpg" alt="">
+                </div>
+                <div class="carousel fade-image">
+                    <img src="images/portfolio2.jpg" alt="">
+                </div>
+                <div class="carousel fade-image">
+                    <img src="images/portfolio3.jpg" alt="">
+                </div>
+                <a class="before" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="after" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div class="box col-span-full m-col-span-full l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12" id="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
             </div>
         </section>
         
@@ -123,16 +139,26 @@
             </div>
         </section>
 
-        <section class="grid-con" id="testimonies">
+        <section class="grid-con slider" id="testimonies">
             <h2 class="hidden">Testimonies</h2>
-            <div class="col-span-full m-col-start-3 m-col-end-11 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12" id="testimonies-text">
+            <hr>
+            <div class="col-span-full m-col-start-3 m-col-end-11 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 " id="testimonies-text">
                 <h2>WHAT THE INDUSTRY SAYS</h2>
                 <hr>
-                <div id="text-testimony">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit pulvinar mauris, fringilla pharetra purus convallis in. Proin urna ex, mollis a sem at, placerat varius arcu. Ut bibendum eleifend urna, sit amet venenatis justo sodales sed. </p>
+                <br>
+                <br>
+                <div id="text-box">
+                <div class="gif" id="g1">
+                    <div class="text-testimony"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit pulvinar mauris, fringilla pharetra purus convallis in. Proin urna ex, mollis a sem at, placerat varius arcu. Ut bibendum eleifend urna, sit amet venenatis justo sodales sed. </p></div>
+                    <div class="text-name"><h3>ALEXANDR  PODVALNY</h3></div>
                 </div>
-                <div id="text-name"><h3>ALEXANDR  PODVALNY</h3></div>
+                <div class="gif" id="g2">
+                    <div class="text-testimony"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corrupti incidunt omnis corporis voluptate, enim obcaecati nihil deleniti sint dolore facilis cumque assumenda quis, tenetur expedita temporibus? Quasi, laudantium commodi! </p> </div>
+                    <div class="text-name"><h3>DANIEL MORENO</h3></div>
+                </div>
             </div>
+            </div>
+
         </section>
 
         <section class="grid-con" id="experiences">
