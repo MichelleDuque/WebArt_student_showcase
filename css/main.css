@@ -9,10 +9,408 @@ body{
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
 }
 
+    /* 1. Main Nav */
+    
+    #main-header{
+        background-color: #ffffff;
+        height: 75px;
+    }
+    
+    #main-logo{
+        order: -1;
+        height: 75px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #main-logo img{
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+     }
+
+#main-nav{
+    display: none;
+ }
+
+
+ /* .button-general{
+    height: 73px;
+    background-color: #FFFFFF;
+    width: 50%;
+    border: 5px solid grey;
+    font-size: 30px;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+} */
+
+
+/* hamburger */
+
+#check {
+    display: none;
+  }
+
+.hamburger {
+    position: absolute;
+    top: 5em;
+    right: 10%;
+    margin-left: -10px;
+    margin-top: -70px;
+    width: 50px;
+    height: 45px;
+    z-index: 5;
+    cursor: pointer;
+  }
+  
+  .hamburger div {
+    position: relative;
+    width: 50px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: #ff0000;
+    margin-top: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .list-hamburger {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    top: -100%; left: 0; right: 0; bottom: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0);
+  }
+  .list-box {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+  }
+
+  #menu-hamburger li a{
+    font-size: 40px;
+    color: #E2231A;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+  }
+
+  #menu-hamburger li{
+    margin-top: 50px;
+  }
+
+  #menu-hamburger li a:before {
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 0.25em;
+    background-color: white;
+    left: -0.5em;
+    transition: all 0.2s ease-in-out;
+  }
+  #menu-hamburger li a:hover {
+    color: #FFFFFF;
+  }
+  #menu-hamburger li a:hover:before {
+    height: 100%;
+  }
+
+/**
+Animations
+**/
+#check:checked + .hamburger .beginning {
+transform: rotate(-45deg);
+margin-top: 25px;
+}
+#check:checked + .hamburger .end {
+opacity: 0;
+transform: rotate(45deg);
+}
+#check:checked + .hamburger .middle {
+transform: rotate(45deg);
+margin-top: -7px;
+}
+
+#check:checked + .hamburger + .list-hamburger {
+top: 0;
+transform: scale(1);
+}
+
+  /* 2.Video */ 
+    
+  #video-box{
+    height: 699px;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.10)),url(../images/bg_video_section.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #FFFFFF;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+}
+
+
+#title-video{
+    font-size: 50px;
+}
+
+#date-video{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+/* 3.About */
+    
+    
+#about-us{
+    background: rgb(255, 255, 255);
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+#text-aboutus{
+    text-align: left;
+}
+
+#text-aboutus h2{
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+}
+
+#text-aboutus h3{
+    font-size: 19px;
+}
+
+#button-aboutus{
+    height: 68px;
+    width: 267px;
+    font-size: 16px;
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+    background-color: #E2231A;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif; 
+}
+
+/* 4. Portfolio Spotlight */
+    
+#portfolio-spotlight{
+    background-color: beige;
+
+}
+
+#spotlight-title h2{
+    font-size: 45px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#spotlight-title h4{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+
+
+
+
+/* Buttons */
+
+
+.button-general{
+    background-color: #FFFFFF;
+    border: 5px solid grey;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.button-general:hover{
+    background-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*Portfolio */
+
+.portfolio-image{
+    flex: 50%;
+    max-width: 100%;
+    margin: 20px;
+}
+
+.portfolio-image img{
+    box-shadow: -5px 5px #E2231A;
+}
+
+.portfolio-image h3{
+    font-size: 15px;
+}
+
+
+/* .portfolio-image img{
+    height: 120px;
+} */
+
+.button-details{
+    background-color: #E2231A;
+    border: none;
+    color: #fff;
+    height: 24px;
+    font-size: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+ /* 6. Testimonies */
+    
+ #testimonies{
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.10)),url(../images/bg_video_section.png);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+#title-testimony{
+    font-size: 45px;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+#testimonies-text{
+    text-align: center;
+    font-size: 19px;
+}
+
+
+
+.text-testimony p{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.text-name h3{
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.text-name h3:first-child{
+    margin-bottom: 50px;
+}
+
+
+ /* 7. Experiences */
+    
+ #experiences{
+    text-align: center;
+}
+
+#experiences-title h2{
+    font-size: 45px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+
+}
+
+#experiences-title h3{
+    font-size: 19px;
+}
+
+#experiences-sections img{
+    box-shadow: -5px 5px #E2231A;
+}
+
+
+.portfolio-experience{
+    margin-bottom: 15px;
+}
+
+    
+    /* 8. Footer */
+    
+    footer{
+        background-color: #F6F6F6;
+        font-family: 'Mulish',Arial, Helvetica, sans-serif;
+        font-size: 19px;
+    }
+
+       
+    li{
+        list-style: none;
+    }
+
+    #nav-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+/* 
+    #nav-footer ul{
+        padding-left: 0;
+    } */
+
+    #nav-footer ul li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #social-media{
+        display: flex;
+    }
+
+    #social-media {
+        margin-top: 20px;
+        justify-content: center;
+      }
+
+    .icon-social{
+        height: 25px;
+    }
+
+    
+    #nav-footer ul{
+        padding-left: 0;
+    }
+
+
+
+
+
+
 
 @media screen and (min-width:768px) {
 
+
     /* General */
+
+    #complete-hamburger{
+        display: none;
+    }
     
     .button-general{
         /* height: 73px; */
@@ -109,6 +507,7 @@ body{
         height: 370px;
         background-color: #FFFFFF;
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(../images/bg_video_section.png);
@@ -227,6 +626,7 @@ body{
     }
 
     #portfolio-image img{
+        max-height: 100%;
         box-shadow: -5px 5px #E2231A;
     }
     
@@ -440,6 +840,11 @@ body{
         font-size: 9px;
         text-align: right;
     }
+
+    
+    #nav-footer ul{
+        padding-left: 40px;
+    }
     
     
     li{
@@ -468,7 +873,7 @@ body{
 }
 
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1200px) {
 
     /* General */
     
@@ -658,11 +1063,8 @@ body{
         border: 2px solid;
         color: white;
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
-        font-size: 22px;
+        font-size: 17px;
         padding-top: 5px;
-        padding-bottom: 30px;
-        padding-left: 60px;
-        padding-right: 60px;
         
         background-color: #E2231A;
         /* height: 73px; */
