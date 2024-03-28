@@ -38,18 +38,6 @@ body{
  }
 
 
- /* .button-general{
-    height: 73px;
-    background-color: #FFFFFF;
-    width: 50%;
-    border: 5px solid grey;
-    font-size: 30px;
-    font-family: 'Roboto',Arial, Helvetica, sans-serif;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-} */
 
 
 /* hamburger */
@@ -299,9 +287,6 @@ transform: scale(1);
 }
 
 
-/* .portfolio-image img{
-    height: 120px;
-} */
 
 .button-details{
     background-color: #E2231A;
@@ -403,10 +388,7 @@ transform: scale(1);
         padding: 0;
         text-align: center;
     }
-/* 
-    #nav-footer ul{
-        padding-left: 0;
-    } */
+
 
     #nav-footer ul li a{
         text-decoration: none;
@@ -514,11 +496,8 @@ transform: scale(1);
     }
     
     .button-general{
-        /* height: 73px; */
         background-color: #FFFFFF;
-        /* width: 50%; */
         border: 5px solid grey;
-        /* font-size: 30px; */
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
         color: black;
         display: flex;
@@ -594,16 +573,7 @@ transform: scale(1);
     
     /* 2.Video */
     
-    
-    /* #title-video{
-        display: none;
-    }
-    
-    #text-video{
-        display: none;
-    } */
-    
-    
+
     #video-box{
         height: 370px;
         background-color: #FFFFFF;
@@ -631,8 +601,6 @@ transform: scale(1);
         color: white;
         font-size: 32px;
         font-weight: 900;
-        /* text-decoration-line: underline;
-        text-underline-offset: 25px; */
         align-items: left;
         margin-right: 50px;
         margin-top: 90px;
@@ -658,7 +626,6 @@ transform: scale(1);
     
     
     #about-us{
-        /* height: 320px; */
         background: white;
         align-items: center;
     }
@@ -670,7 +637,6 @@ transform: scale(1);
     } 
     
     #text-aboutus{
-        /* height: 455px; */
         text-align: left;
         padding-top: 90px;
     }
@@ -680,10 +646,6 @@ transform: scale(1);
         font-size: 42px;
         font-weight: 900;
         margin: 0;
-        /* padding-top: 60px; */
-        /* text-decoration-line: underline;
-        text-underline-offset: 20px;
-        margin-bottom: 100px; */
     }
     
     #text-aboutus h3{
@@ -714,7 +676,6 @@ transform: scale(1);
         padding-right: 30px;
         
         background-color: #E2231A;
-        /* height: 73px; */
         display: block;
         margin: 0;
     }
@@ -722,7 +683,6 @@ transform: scale(1);
     /* 4. Portfolio Spotlight */
     
     #portfolio-spotlight{
-        /* height: 440px; */
         background-color: white;
     }
 
@@ -749,21 +709,12 @@ transform: scale(1);
         align-items: center;
         justify-content: center;
     }
-    
-    
-    /* #portfolio-image {
-        background-color: black;
-        height: 200px;
-    } */
+
     
     /* 5. Portolio Index */
     
-    /* #portfolio-index{
-        height: 800px;
-    } */
     
     #index-title h2{
-        /* padding-top: 50px; */
         font-family: 'Mulish',Arial, Helvetica, sans-serif;
         font-size: 42px;
         font-weight: 900;
@@ -803,7 +754,6 @@ transform: scale(1);
         flex: 50%;
         max-width: 45%;
         margin: 10px;
-        /* background-color: antiquewhite; */
         height: 241px;
     }
 
@@ -811,18 +761,11 @@ transform: scale(1);
         box-shadow: -5px 5px #E2231A;
     }
     
-    /* .portfolio-image img{
-        margin-top: 40px;
-    } */
     
     .portfolio-image h3{
         font-size: 15px;
     }
-    
-    
-    /* .portfolio-image img{
-        height: 120px;
-    } */
+
     
     .button-details{
         background-color: #E2231A;
@@ -857,7 +800,6 @@ transform: scale(1);
         font-size: 38px;
         font-weight: 900;
         margin-bottom: 0;
-        /* margin: 0; */
         text-align: left;
         color: white;
     }
@@ -889,11 +831,7 @@ transform: scale(1);
     }
     
     /* 7. Experiences */
-    
-    /* #experiences{
-        height: 770px;
-        text-align: center;
-    } */
+
     
     #experiences-title h2{
         padding-top: 20px;
@@ -956,7 +894,6 @@ transform: scale(1);
         text-decoration: none;
         color: black;
         float: right;
-        /* margin-bottom: 10px; */
     }
     
     #social-media{
@@ -964,7 +901,7 @@ transform: scale(1);
     }
     
     #social-media > div {
-        flex: 1; /*grow*/
+        flex: 1; 
       }
 
     .icon-social{
@@ -1128,9 +1065,6 @@ transform: scale(1);
     }
     
     iframe{
-        /* padding-left: 70px; */
-        /* width: 640px;
-        height: 360px; */
         border: 0;
         box-shadow: -10px 10px #E2231A;
     }
@@ -1172,7 +1106,6 @@ transform: scale(1);
     /* 3.About */
     
     #about-us{
-        /* height: 531px; */
         background: white;
         align-items: center;
     }
@@ -1184,7 +1117,6 @@ transform: scale(1);
     } 
     
     #text-aboutus{
-        /* height: 455px; */
         text-align: left;
         padding-top: 90px;
     }
@@ -1194,10 +1126,6 @@ transform: scale(1);
         font-size: 55px;
         font-weight: 900;
         margin: 0;
-        /* padding-top: 60px; */
-        /* text-decoration-line: underline;
-        text-underline-offset: 20px;
-        margin-bottom: 100px; */
     }
     
     #text-aboutus h3{
@@ -1225,7 +1153,6 @@ transform: scale(1);
         padding-top: 5px;
         
         background-color: #E2231A;
-        /* height: 73px; */
         display: block;
         margin: 0;
     }
@@ -1233,7 +1160,6 @@ transform: scale(1);
     /* 4. Portfolio Spotlight */
     
     #portfolio-spotlight{
-        /* height: 1500px; */
         background-color: white;
     }
     
@@ -1335,9 +1261,6 @@ transform: scale(1);
     
     /* 5. Portolio Index */
     
-    /* #portfolio-index{
-        height: 1162px;
-    } */
     
     #index-title h2{
         padding-top: 50px;
@@ -1381,26 +1304,17 @@ transform: scale(1);
         max-width: 45%;
         margin: 20px;
         margin-bottom: 190px;
-        /* background-color: antiquewhite; */
-        /* height: 390px; */
     }
 
     .portfolio-image img{
         box-shadow: -10px 10px #E2231A;
     }
     
-    /* .portfolio-image img{
-        margin-top: 40px;
-    } */
     
     .portfolio-image h3{
         font-size: 26px;
     }
-    
-    
-    /* .portfolio-image img{
-        height: 196px;
-    } */
+
     
     .button-details{
         background-color: #E2231A;
@@ -1435,7 +1349,6 @@ transform: scale(1);
         font-size: 55px;
         font-weight: 900;
         margin-bottom: 0;
-        /* margin: 0; */
         text-align: left;
         color: white;
     }
@@ -1478,7 +1391,7 @@ transform: scale(1);
 /* Slides */
 
 .gif {
-    position: relative; /* Establecer la posición como relativa */
+    position: relative; 
     -webkit-animation: fadeslideUp 8s infinite; 
     -moz-animation: fadeslideUp 8s infinite; 
     -o-animation: fadeslideUp 8s infinite; 
@@ -1486,11 +1399,11 @@ transform: scale(1);
 }
 
 #g1 {
-    bottom: -20px; /* Ajustar la posición inferior */
+    bottom: -20px; 
 }
 
 #g2 {
-    animation-delay: -4s; /* Retrasar la animación del segundo testimonio */
+    animation-delay: -4s; 
     bottom: 66px
 }
 
@@ -1499,7 +1412,7 @@ transform: scale(1);
         opacity: 0;
     }
     5% {
-        opacity: 1; /* Mantener la opacidad al 100% durante el primer 5% */
+        opacity: 1; 
     }
     10%, 45% {
         opacity: 1;
@@ -1508,13 +1421,6 @@ transform: scale(1);
         opacity: 0;
     }
 }
-
-
-
-
-
-
-
       
 
 
@@ -1522,8 +1428,6 @@ transform: scale(1);
     
     #experiences{
         margin-bottom: 70px;
-        /* height: 984px;
-        text-align: center; */
     }
     
     #experiences-title h2{
@@ -1591,7 +1495,7 @@ transform: scale(1);
     }
     
     #social-media > div {
-        flex: 1; /*grow*/
+        flex: 1; 
       }
     
     .icon-social{
@@ -1727,7 +1631,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-image: linear-gradient(to left, #E2231A 80%, #E2231A 20%); */
 }
 
 
@@ -1746,7 +1649,6 @@ iframe{
 
 
 #about-us{
-    /* height: 740px; */
     background: white;
     align-items: center;
 }
@@ -1756,7 +1658,6 @@ iframe{
 } 
 
 #text-aboutus{
-    /* height: 455px; */
     text-align: left;
     padding-top: 100px;
 }
@@ -1766,10 +1667,6 @@ iframe{
     font-size: 55px;
     font-weight: 900;
     margin: 0;
-    /* padding-top: 60px; */
-    /* text-decoration-line: underline;
-    text-underline-offset: 20px;
-    margin-bottom: 100px; */
 }
 
 #text-aboutus h3{
@@ -1794,12 +1691,9 @@ iframe{
     color: white;
     font-family: 'Mulish',Arial, Helvetica, sans-serif;
     font-size: 22px;
-    /* padding: 20px; */
     padding-left: 60px;
-    padding-right: 60px;
-    
+    padding-right: 60px; 
     background-color: #E2231A;
-    /* height: 73px; */
     display: block;
     margin: 0;
 }
@@ -1807,7 +1701,6 @@ iframe{
 /* 4. Portfolio Spotlight */
 
 #portfolio-spotlight{
-    /* height: 1360px; */
     background-color: white;
 }
 
@@ -1851,10 +1744,6 @@ iframe{
 }
 
 /* 5. Portolio Index */
-
-/* #portfolio-index{
-    height: 1322px;
-} */
 
 #index-title h2{
     padding-top: 60px;
@@ -1906,7 +1795,6 @@ iframe{
 
 .portfolio-image img{
     margin-bottom: 10px;
-    /* box-shadow: -5px 5px #E2231A; */
 }
 
 .portfolio-image h3{
@@ -1916,10 +1804,6 @@ iframe{
     font-family: 'Mulish',Arial, Helvetica, sans-serif;
 }
 
-
-/* .portfolio-image img{
-    height: 196px;
-} */
 
 .button-details{
     background-color: #E2231A;
@@ -1953,7 +1837,6 @@ iframe{
     font-size: 55px;
     font-weight: 900;
     margin-bottom: 0;
-    /* margin: 0; */
     text-align: left;
 }
 
@@ -1973,12 +1856,6 @@ iframe{
 }
 
 /* 7. Experiences */
-
-/* #experiences{
-    height: 1352px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-} */
 
 #experiences-title h2{
     padding-top: 60px;
@@ -2044,7 +1921,7 @@ li{
 }
 
 #social-media > div {
-    flex: 1; /*grow*/
+    flex: 1; 
   }
 
 .icon-social{
